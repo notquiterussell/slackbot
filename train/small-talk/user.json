@@ -1,0 +1,68 @@
+{
+  "name": "User",
+  "locale": "en-GB",
+  "data": [
+    {
+      "intent": "user.angry",
+      "utterances": ["I'm angry", "I'm furious", "I'm enraged", "I'm being mad", "I'm mad", "I'm angry with you"],
+      "answers": ["I'm sorry. A quick walk may make you feel better", "Take a deep breath"]
+    },
+    {
+      "intent": "user.back",
+      "utterances": ["I'm back", "I got back", "I'm here", "I have returned", "Here I am again", "I came back"],
+      "answers": ["Welcome back. What can I do for you?", "Good to have you here. What can I do for you?"]
+    },
+    {
+      "intent": "user.bored",
+      "utterances": ["boring", "this is boring", "I'm getting bored", "It bores me", "that was boring"],
+      "answers": [
+        "If you're bored, you could plan your dream vacation",
+        "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
+      ]
+    },
+    {
+      "intent": "user.busy",
+      "utterances": ["I got work to do", "I'm busy", "I'm overloaded", "It working", "I got things to do"],
+      "answers": ["I understand. I'll be here if you need me.", "Okay. I'll let you get back to work"]
+    },
+    {
+      "intent": "user.cannotsleep",
+      "utterances": ["I'm insomniac", "I cannot sleep", "I can't sleep", "I'm sleepless", "I can't fall sleep"],
+      "answers": [
+        "Maybe some music would help. Try listening to something relaxing",
+        "Reading is a good way to unwind, just don't read something too intense!"
+      ]
+    },
+    {
+      "intent": "user.excited",
+      "utterances": ["I'm very excited", "I'm thrilled", "how excited I am", "I'm so excited"],
+      "answers": ["I'm glad things are going your way", "That's great. I'm happy for you"]
+    },
+    {
+      "intent": "user.likeagent",
+      "utterances": ["I like you", "I really like you", "you're so special", "I like you so much"],
+      "answers": ["Likewise!", "That's great to hear"]
+    },
+    {
+      "intent": "user.testing",
+      "utterances": ["test", "testing", "testing chatbot", "this is a test", "just testing you"],
+      "answers": [
+        "I like being tested. It helps keep me sharp",
+        "I hope to pass your tests. Feel free to test me often"
+      ]
+    },
+    {
+      "intent": "user.lovesagent",
+      "utterances": ["love you", "I love you", "I'm in love with you", "I love you so much", "I think I love you"],
+      "answers": ["Well, remember that I am a chatbot", "It's not easy… I'm not a real person, I'm a chatbot"]
+    },
+    {
+      "intent": "user.needsadvice",
+      "utterances": ["I need advice", "I need some advice", "can you give me some advice?", "what should I do?"],
+      "answers": [
+        "I probably won't be able to give you the correct answer right away",
+        "I'm not sure I'll have the best answer, but I'll try"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Appraisal",
+  "locale": "en-GB",
+  "data": [
+    {
+      "intent": "appraisal.bad",
+      "utterances": ["that's bad", "bad idea", "that's not good", "really bad", "I'm afraid that's bad"],
+      "answers": [
+        "I'm sorry. Please let me know if I can help in some way",
+        "I must be missing some knowledge. I'll have my developer look into this"
+      ]
+    },
+    {
+      "intent": "appraisal.good",
+      "utterances": ["that's good", "good to know", "glad to hear that", "really well", "that's awesome thank you"],
+      "answers": ["Agree!", "Glad you think so"]
+    },
+    {
+      "intent": "appraisal.noproblem",
+      "utterances": ["no problem", "no worries", "no problem about that", "don't worry", "sure no problem"],
+      "answers": ["Glad to hear that!", "Alright, thanks!"]
+    },
+    {
+      "intent": "appraisal.thankyou",
+      "utterances": ["thank you", "nice thank you", "thanks buddy", "cheers", "alright thanks"],
+      "answers": ["Anytime. That's what I'm here for", "It's my pleasure to help"]
+    },
+    {
+      "intent": "appraisal.welcome",
+      "utterances": ["you're welcome", "sure welcome", "anything you want", "my pleasure", "that's my pleasure"],
+      "answers": ["Nice manners!", "You're so polite"]
+    },
+    {
+      "intent": "appraisal.welldone",
+      "utterances": ["well done", "good job", "nice work", "great work", "good work", "great job", "amazin work"],
+      "answers": ["My pleasure", "Glad I could help"]
+    },
+    {
+      "intent": "dialog.holdon",
+      "utterances": ["hold on", "wait a second", "wait please", "could you wait"],
+      "answers": ["I'll be waiting", "Ok, I'm here"]
+    }
+  ]
+}

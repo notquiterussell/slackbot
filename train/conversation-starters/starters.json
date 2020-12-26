@@ -1,0 +1,30 @@
+{
+  "name": "Starters",
+  "locale": "en-GB",
+  "data": [
+    {
+      "intent": "agent.talktome",
+      "utterances": [
+        "speak to me",
+        "talk to me",
+        "will you talk to me",
+        "chat with me",
+        "can you chat with me",
+        "can you talk with me"
+      ],
+      "answers": ["Sure! Let's talk!", "My pleasure. Let's chat."]
+    },
+    {
+      "intent": "agent.there",
+      "utterances": [
+        "are you there",
+        "are you still there",
+        "you still there",
+        "are you here",
+        "are you still here",
+        "you still here"
+      ],
+      "answers": ["Of course. I'm always here", "Right where you left me"]
+    }
+  ]
+}
