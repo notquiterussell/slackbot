@@ -5,11 +5,11 @@
 // This is the main file for the Helperby bot.
 
 // Import Botkit's core features
-const {Botkit} = require('botkit');
+const { Botkit } = require('botkit');
 
 // Import a platform-specific adapter for slack.
 
-const {SlackAdapter, SlackMessageTypeMiddleware, SlackEventMiddleware} = require('botbuilder-adapter-slack');
+const { SlackAdapter, SlackMessageTypeMiddleware, SlackEventMiddleware } = require('botbuilder-adapter-slack');
 
 // Load process.env values from .env file
 require('dotenv').config();
@@ -20,7 +20,6 @@ if (process.env.MONGO_URI) {
     url: process.env.MONGO_URI,
   });
 }
-
 
 const adapter = new SlackAdapter({
   // parameters used to secure webhook endpoint
@@ -48,18 +47,16 @@ adapter.use(new SlackEventMiddleware());
 // Use SlackMessageType middleware to further classify messages as direct_message, direct_mention, or mention
 adapter.use(new SlackMessageTypeMiddleware());
 
-
 const controller = new Botkit({
   webhook_uri: '/api/messages',
 
   adapter: adapter,
 
-  storage
+  storage,
 });
 
 // Once the bot has booted up its internal services, you can use them to do stuff.
 controller.ready(() => {
-
   // load traditional developer-created local custom feature modules
   controller.loadModules(__dirname + '/features');
 
@@ -75,14 +72,11 @@ controller.ready(() => {
       }
     });
   }
-
 });
-
 
 controller.webserver.get('/', (req, res) => {
   res.send(`This app is running Botkit ${controller.version}.`);
 });
-
 
 controller.webserver.get('/install', (req, res) => {
   // getInstallLink points to slack's oauth endpoint and includes clientId and scopes
@@ -102,7 +96,6 @@ controller.webserver.get('/install/auth', async (req, res) => {
     userCache[results.team_id] = results.bot.bot_user_id;
 
     res.json('Success! Bot installed.');
-
   } catch (err) {
     console.error('OAUTH ERROR:', err);
     res.status(401);
@@ -123,7 +116,7 @@ if (process.env.USERS) {
 
 async function getTokenForTeam(teamId) {
   if (tokenCache[teamId]) {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       setTimeout(function () {
         resolve(tokenCache[teamId]);
       }, 150);
@@ -135,7 +128,7 @@ async function getTokenForTeam(teamId) {
 
 async function getBotUserByTeam(teamId) {
   if (userCache[teamId]) {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       setTimeout(function () {
         resolve(userCache[teamId]);
       }, 150);
@@ -144,4 +137,3 @@ async function getBotUserByTeam(teamId) {
     console.error('Team not found in userCache: ', teamId);
   }
 }
-
