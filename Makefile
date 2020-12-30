@@ -10,6 +10,7 @@ setup: ## Set up the environment
 	npm install;
 
 train: ## Train the bot
+	npm run smalltalk; \
 	npm run train;
 
 start: ## Run the bot

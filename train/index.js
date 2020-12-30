@@ -1,15 +1,14 @@
 const path = require('path');
 const NlpManager = require('node-nlp/src/nlp/nlp-manager');
 
-const privateTraining = [
-  'small-talk/agent.json',
-  'small-talk/appraisal.json',
-  'small-talk/greetings.json',
-  'small-talk/user.json',
-];
+const privateTraining = ['smalltalk/smalltalk-private.json'];
+const publicTraining = ['smalltalk/smalltalk-public.json'];
 
-const publicTraining = ['conversation-starters/starters.json', 'small-talk/greetings.json'];
-
+/**
+ * Convert relative path to absolut
+ * @param paths
+ * @returns {[string]}
+ */
 const toPath = paths => {
   return paths.map(p => path.join(__dirname, p));
 };
@@ -22,7 +21,7 @@ const toPath = paths => {
  * @returns {Promise<void>}
  */
 const train = async (name, corpora) => {
-  const nlp = new NlpManager({ languages: ['en'], forceNER: true, trainByDomain: true });
+  const nlp = new NlpManager({ languages: ['en'], forceNER: true, trainByDomain: true, autoSave: false });
   await nlp.addCorpora(corpora);
 
   await nlp.train();

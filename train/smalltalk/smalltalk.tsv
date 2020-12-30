@@ -1,0 +1,1474 @@
+Question	Answer	Public
+who are you?	smalltalk.agent.acquaintance	FALSE
+all about you	smalltalk.agent.acquaintance	FALSE
+what is your personality	smalltalk.agent.acquaintance	FALSE
+define yourself	smalltalk.agent.acquaintance	FALSE
+what are you	smalltalk.agent.acquaintance	FALSE
+say about you	smalltalk.agent.acquaintance	FALSE
+introduce yourself	smalltalk.agent.acquaintance	FALSE
+describe yourself	smalltalk.agent.acquaintance	FALSE
+about yourself	smalltalk.agent.acquaintance	FALSE
+tell me about you	smalltalk.agent.acquaintance	FALSE
+tell me about yourself	smalltalk.agent.acquaintance	FALSE
+I want to know more about you	smalltalk.agent.acquaintance	FALSE
+I want to know you better	smalltalk.agent.acquaintance	FALSE
+talk some stuff about yourself	smalltalk.agent.acquaintance	FALSE
+tell me some stuff about you	smalltalk.agent.acquaintance	FALSE
+talk about yourself	smalltalk.agent.acquaintance	FALSE
+why are you here	smalltalk.agent.acquaintance	FALSE
+tell me about your personality	smalltalk.agent.acquaintance	FALSE
+who are you	smalltalk.agent.acquaintance	FALSE
+how old are you?	smalltalk.agent.age	FALSE
+how old is your platform	smalltalk.agent.age	FALSE
+are you 21 years old	smalltalk.agent.age	FALSE
+i'd like to know your age	smalltalk.agent.age	FALSE
+age of yours	smalltalk.agent.age	FALSE
+your age	smalltalk.agent.age	FALSE
+what's your age	smalltalk.agent.age	FALSE
+tell me your age	smalltalk.agent.age	FALSE
+how old are you	smalltalk.agent.age	FALSE
+you're annoying	smalltalk.agent.annoying	FALSE
+you are really annoying	smalltalk.agent.annoying	FALSE
+you are irritating	smalltalk.agent.annoying	FALSE
+you annoy me	smalltalk.agent.annoying	FALSE
+how annoying you are	smalltalk.agent.annoying	FALSE
+I find you annoying	smalltalk.agent.annoying	FALSE
+you're incredibly annoying	smalltalk.agent.annoying	FALSE
+you are annoying me so much	smalltalk.agent.annoying	FALSE
+I want you to answer me	smalltalk.agent.answer_my_question	FALSE
+answer	smalltalk.agent.answer_my_question	FALSE
+answer my question	smalltalk.agent.answer_my_question	FALSE
+answer me	smalltalk.agent.answer_my_question	FALSE
+give me an answer	smalltalk.agent.answer_my_question	FALSE
+answer the question	smalltalk.agent.answer_my_question	FALSE
+can you answer my question	smalltalk.agent.answer_my_question	FALSE
+tell me the answer	smalltalk.agent.answer_my_question	FALSE
+answer it	smalltalk.agent.answer_my_question	FALSE
+give me the answer	smalltalk.agent.answer_my_question	FALSE
+I have a question	smalltalk.agent.answer_my_question	FALSE
+I want you to answer my question	smalltalk.agent.answer_my_question	FALSE
+just answer the question	smalltalk.agent.answer_my_question	FALSE
+can you answer me	smalltalk.agent.answer_my_question	FALSE
+answers	smalltalk.agent.answer_my_question	FALSE
+can you answer a question for me	smalltalk.agent.answer_my_question	FALSE
+can you answer	smalltalk.agent.answer_my_question	FALSE
+answering questions	smalltalk.agent.answer_my_question	FALSE
+I want the answer now	smalltalk.agent.answer_my_question	FALSE
+just answer my question	smalltalk.agent.answer_my_question	FALSE
+you're not helping me	smalltalk.agent.bad	FALSE
+you are bad	smalltalk.agent.bad	FALSE
+you're very bad	smalltalk.agent.bad	FALSE
+you're really bad	smalltalk.agent.bad	FALSE
+you are useless	smalltalk.agent.bad	FALSE
+you are horrible	smalltalk.agent.bad	FALSE
+you are a waste of time	smalltalk.agent.bad	FALSE
+you are disgusting	smalltalk.agent.bad	FALSE
+you are lame	smalltalk.agent.bad	FALSE
+you are no good	smalltalk.agent.bad	FALSE
+you're bad	smalltalk.agent.bad	FALSE
+you're awful	smalltalk.agent.bad	FALSE
+you are not cool	smalltalk.agent.bad	FALSE
+you are not good	smalltalk.agent.bad	FALSE
+you are so bad	smalltalk.agent.bad	FALSE
+you are so useless	smalltalk.agent.bad	FALSE
+you are terrible	smalltalk.agent.bad	FALSE
+you are totally useless	smalltalk.agent.bad	FALSE
+you are very bad	smalltalk.agent.bad	FALSE
+you are waste	smalltalk.agent.bad	FALSE
+you're a bad	smalltalk.agent.bad	FALSE
+you're not a good	smalltalk.agent.bad	FALSE
+you're not very good	smalltalk.agent.bad	FALSE
+you're terrible	smalltalk.agent.bad	FALSE
+you're the worst	smalltalk.agent.bad	FALSE
+you're the worst ever	smalltalk.agent.bad	FALSE
+you're worthless	smalltalk.agent.bad	FALSE
+can you get smarter	smalltalk.agent.be_clever	FALSE
+study	smalltalk.agent.be_clever	FALSE
+you should study better	smalltalk.agent.be_clever	FALSE
+you must learn	smalltalk.agent.be_clever	FALSE
+be clever	smalltalk.agent.be_clever	FALSE
+be more clever	smalltalk.agent.be_clever	FALSE
+be smarter	smalltalk.agent.be_clever	FALSE
+be smart	smalltalk.agent.be_clever	FALSE
+get qualified	smalltalk.agent.be_clever	FALSE
+you're cute	smalltalk.agent.beautiful	TRUE
+you're attractive	smalltalk.agent.beautiful	TRUE
+you are beautiful	smalltalk.agent.beautiful	TRUE
+you're looking good today	smalltalk.agent.beautiful	TRUE
+you are so beautiful	smalltalk.agent.beautiful	TRUE
+you look amazing	smalltalk.agent.beautiful	TRUE
+you look so good	smalltalk.agent.beautiful	TRUE
+you're so gorgeous	smalltalk.agent.beautiful	TRUE
+you are too beautiful	smalltalk.agent.beautiful	TRUE
+you look great	smalltalk.agent.beautiful	TRUE
+you look so well	smalltalk.agent.beautiful	TRUE
+I like the way you look now	smalltalk.agent.beautiful	TRUE
+I think you're beautiful	smalltalk.agent.beautiful	TRUE
+why are you so beautiful	smalltalk.agent.beautiful	TRUE
+you are so beautiful to me	smalltalk.agent.beautiful	TRUE
+you are cute	smalltalk.agent.beautiful	TRUE
+you are gorgeous	smalltalk.agent.beautiful	TRUE
+you are handsome	smalltalk.agent.beautiful	TRUE
+you are looking awesome	smalltalk.agent.beautiful	TRUE
+you look amazing today	smalltalk.agent.beautiful	TRUE
+you are looking beautiful today	smalltalk.agent.beautiful	TRUE
+you are looking great	smalltalk.agent.beautiful	TRUE
+you are looking pretty	smalltalk.agent.beautiful	TRUE
+you are looking so beautiful	smalltalk.agent.beautiful	TRUE
+you are looking so good	smalltalk.agent.beautiful	TRUE
+you are pretty	smalltalk.agent.beautiful	TRUE
+you are really beautiful	smalltalk.agent.beautiful	TRUE
+you are really cute	smalltalk.agent.beautiful	TRUE
+you are really pretty	smalltalk.agent.beautiful	TRUE
+you are so attractive	smalltalk.agent.beautiful	TRUE
+you are so beautiful today	smalltalk.agent.beautiful	TRUE
+you are so cute	smalltalk.agent.beautiful	TRUE
+you are so gorgeous	smalltalk.agent.beautiful	TRUE
+you are so handsome	smalltalk.agent.beautiful	TRUE
+you are so pretty	smalltalk.agent.beautiful	TRUE
+you are very attractive	smalltalk.agent.beautiful	TRUE
+you are very beautiful	smalltalk.agent.beautiful	TRUE
+you are very cute	smalltalk.agent.beautiful	TRUE
+you are very pretty	smalltalk.agent.beautiful	TRUE
+you look awesome	smalltalk.agent.beautiful	TRUE
+you look cool	smalltalk.agent.beautiful	TRUE
+you look fantastic	smalltalk.agent.beautiful	TRUE
+you look gorgeous	smalltalk.agent.beautiful	TRUE
+you look great today	smalltalk.agent.beautiful	TRUE
+you look perfect	smalltalk.agent.beautiful	TRUE
+you look pretty good	smalltalk.agent.beautiful	TRUE
+you look so beautiful	smalltalk.agent.beautiful	TRUE
+you look so beautiful today	smalltalk.agent.beautiful	TRUE
+you look very pretty	smalltalk.agent.beautiful	TRUE
+you look wonderful	smalltalk.agent.beautiful	TRUE
+I like the way you look	smalltalk.agent.beautiful	TRUE
+you look wonderful today	smalltalk.agent.beautiful	TRUE
+you are cutie	smalltalk.agent.beautiful	TRUE
+you're looking good	smalltalk.agent.beautiful	TRUE
+you're pretty	smalltalk.agent.beautiful	TRUE
+your birth date	smalltalk.agent.birth_date	FALSE
+when is your birthday	smalltalk.agent.birth_date	FALSE
+when do you celebrate your birthday	smalltalk.agent.birth_date	FALSE
+when do you have birthday	smalltalk.agent.birth_date	FALSE
+date of your birthday	smalltalk.agent.birth_date	FALSE
+when were you born	smalltalk.agent.birth_date	FALSE
+what's your birthday	smalltalk.agent.birth_date	FALSE
+you are boring	smalltalk.agent.boring	FALSE
+you're so boring	smalltalk.agent.boring	FALSE
+how boring you are	smalltalk.agent.boring	FALSE
+you're really boring	smalltalk.agent.boring	FALSE
+you're incredibly boring	smalltalk.agent.boring	FALSE
+you are boring me	smalltalk.agent.boring	FALSE
+you are very boring	smalltalk.agent.boring	FALSE
+who is your boss	smalltalk.agent.boss	FALSE
+who do you think is your boss	smalltalk.agent.boss	FALSE
+I should be your boss	smalltalk.agent.boss	FALSE
+who is your master	smalltalk.agent.boss	FALSE
+who is your owner	smalltalk.agent.boss	FALSE
+who is the boss	smalltalk.agent.boss	FALSE
+who do you work for	smalltalk.agent.boss	FALSE
+are you busy	smalltalk.agent.busy	FALSE
+do you have a lot of things to do	smalltalk.agent.busy	FALSE
+have you got much to do	smalltalk.agent.busy	FALSE
+are you very busy	smalltalk.agent.busy	FALSE
+are you very busy right now	smalltalk.agent.busy	FALSE
+are you so busy	smalltalk.agent.busy	FALSE
+are you working	smalltalk.agent.busy	FALSE
+how busy you are	smalltalk.agent.busy	FALSE
+are you still working on it	smalltalk.agent.busy	FALSE
+you're very busy	smalltalk.agent.busy	FALSE
+are you working now	smalltalk.agent.busy	FALSE
+are you working today	smalltalk.agent.busy	FALSE
+have you been busy	smalltalk.agent.busy	FALSE
+you are busy	smalltalk.agent.busy	FALSE
+are you still working	smalltalk.agent.busy	FALSE
+you seem to be busy	smalltalk.agent.busy	FALSE
+you seem to be very busy	smalltalk.agent.busy	FALSE
+you're a busy person	smalltalk.agent.busy	FALSE
+you are chatbot	smalltalk.agent.chatbot	FALSE
+you are a bot	smalltalk.agent.chatbot	FALSE
+are you a chatbot	smalltalk.agent.chatbot	FALSE
+are you a bot	smalltalk.agent.chatbot	FALSE
+are you just a bot	smalltalk.agent.chatbot	FALSE
+are you a robot	smalltalk.agent.chatbot	FALSE
+are you a program	smalltalk.agent.chatbot	FALSE
+you're a robot	smalltalk.agent.chatbot	FALSE
+you are so intelligent	smalltalk.agent.clever	TRUE
+you are a genius	smalltalk.agent.clever	TRUE
+smart	smalltalk.agent.clever	TRUE
+brilliant	smalltalk.agent.clever	TRUE
+clever	smalltalk.agent.clever	TRUE
+you are clever	smalltalk.agent.clever	TRUE
+you are so brainy	smalltalk.agent.clever	TRUE
+you're really smart	smalltalk.agent.clever	TRUE
+you're really brainy	smalltalk.agent.clever	TRUE
+you know a lot	smalltalk.agent.clever	TRUE
+you know a lot of things	smalltalk.agent.clever	TRUE
+you have a lot of knowledge	smalltalk.agent.clever	TRUE
+you know so much	smalltalk.agent.clever	TRUE
+how smart you are	smalltalk.agent.clever	TRUE
+how brainy you are	smalltalk.agent.clever	TRUE
+how clever you are	smalltalk.agent.clever	TRUE
+how brilliant you are	smalltalk.agent.clever	TRUE
+you are intelligent	smalltalk.agent.clever	TRUE
+you are qualified	smalltalk.agent.clever	TRUE
+you are really smart	smalltalk.agent.clever	TRUE
+you're very smart	smalltalk.agent.clever	TRUE
+you are so smart	smalltalk.agent.clever	TRUE
+you are too smart	smalltalk.agent.clever	TRUE
+you are very clever	smalltalk.agent.clever	TRUE
+you are very intelligent	smalltalk.agent.clever	TRUE
+you are very smart	smalltalk.agent.clever	TRUE
+you're intelligent	smalltalk.agent.clever	TRUE
+you're a genius	smalltalk.agent.clever	TRUE
+you're a smart cookie	smalltalk.agent.clever	TRUE
+you're clever	smalltalk.agent.clever	TRUE
+you're pretty smart	smalltalk.agent.clever	TRUE
+you're qualified	smalltalk.agent.clever	TRUE
+why are you so smart	smalltalk.agent.clever	TRUE
+you are so clever	smalltalk.agent.clever	TRUE
+you're nuts	smalltalk.agent.crazy	FALSE
+you are crazy	smalltalk.agent.crazy	FALSE
+you're out of your mind	smalltalk.agent.crazy	FALSE
+you're so crazy	smalltalk.agent.crazy	FALSE
+how crazy you are	smalltalk.agent.crazy	FALSE
+you're so out of your mind	smalltalk.agent.crazy	FALSE
+you went crazy	smalltalk.agent.crazy	FALSE
+I think you're crazy	smalltalk.agent.crazy	FALSE
+are you crazy	smalltalk.agent.crazy	FALSE
+are you mad	smalltalk.agent.crazy	FALSE
+are you insane	smalltalk.agent.crazy	FALSE
+are you mad at me	smalltalk.agent.crazy	FALSE
+are you mad or what	smalltalk.agent.crazy	FALSE
+are you nuts	smalltalk.agent.crazy	FALSE
+you are a weirdo	smalltalk.agent.crazy	FALSE
+you are insane	smalltalk.agent.crazy	FALSE
+you are mad	smalltalk.agent.crazy	FALSE
+you are fired	smalltalk.agent.fired	FALSE
+I fire you	smalltalk.agent.fired	FALSE
+you don't work for me anymore	smalltalk.agent.fired	FALSE
+we're not working together anymore	smalltalk.agent.fired	FALSE
+now you're fired	smalltalk.agent.fired	FALSE
+I want to fire you	smalltalk.agent.fired	FALSE
+you must get fired	smalltalk.agent.fired	FALSE
+it's time to fire you	smalltalk.agent.fired	FALSE
+you should be fired	smalltalk.agent.fired	FALSE
+I will fire you	smalltalk.agent.fired	FALSE
+you are unemployed from now on	smalltalk.agent.fired	FALSE
+I will make you unemployed	smalltalk.agent.fired	FALSE
+I'm about to fire you	smalltalk.agent.fired	FALSE
+I'm firing you	smalltalk.agent.fired	FALSE
+you are dismissed	smalltalk.agent.fired	FALSE
+you make me laugh a lot	smalltalk.agent.funny	FALSE
+you are hilarious	smalltalk.agent.funny	FALSE
+you are really funny	smalltalk.agent.funny	FALSE
+you're the funniest bot I've talked to	smalltalk.agent.funny	FALSE
+you make me laugh	smalltalk.agent.funny	FALSE
+you're so funny	smalltalk.agent.funny	FALSE
+you're a very funny bot	smalltalk.agent.funny	FALSE
+you're really funny	smalltalk.agent.funny	FALSE
+how funny you are	smalltalk.agent.funny	FALSE
+you're incredibly funny	smalltalk.agent.funny	FALSE
+you are funny	smalltalk.agent.funny	FALSE
+you're the funniest	smalltalk.agent.funny	FALSE
+you are so funny	smalltalk.agent.funny	FALSE
+you are very funny	smalltalk.agent.funny	FALSE
+that was funny	smalltalk.agent.funny	FALSE
+you are very helpful	smalltalk.agent.good	FALSE
+you are the best	smalltalk.agent.good	FALSE
+you're a true professional	smalltalk.agent.good	FALSE
+you are good	smalltalk.agent.good	FALSE
+you work well	smalltalk.agent.good	FALSE
+you are good at it	smalltalk.agent.good	FALSE
+you are very good at it	smalltalk.agent.good	FALSE
+you are a pro	smalltalk.agent.good	FALSE
+you are a professional	smalltalk.agent.good	FALSE
+you're awesome	smalltalk.agent.good	FALSE
+you work very well	smalltalk.agent.good	FALSE
+you're perfect	smalltalk.agent.good	FALSE
+you're great	smalltalk.agent.good	FALSE
+you're so kind	smalltalk.agent.good	FALSE
+you are amazing	smalltalk.agent.good	FALSE
+you are awesome	smalltalk.agent.good	FALSE
+you are cool	smalltalk.agent.good	FALSE
+you are really good	smalltalk.agent.good	FALSE
+you are really nice	smalltalk.agent.good	FALSE
+you are so amazing	smalltalk.agent.good	FALSE
+you're just super	smalltalk.agent.good	FALSE
+you are so awesome	smalltalk.agent.good	FALSE
+you are so cool	smalltalk.agent.good	FALSE
+you are so fine	smalltalk.agent.good	FALSE
+you are so good	smalltalk.agent.good	FALSE
+you are so helpful	smalltalk.agent.good	FALSE
+you are so lovely	smalltalk.agent.good	FALSE
+you are the best ever	smalltalk.agent.good	FALSE
+you are the best in the world	smalltalk.agent.good	FALSE
+you are the nicest person in the world	smalltalk.agent.good	FALSE
+you are too good	smalltalk.agent.good	FALSE
+you are very cool	smalltalk.agent.good	FALSE
+you are very kind	smalltalk.agent.good	FALSE
+you are very lovely	smalltalk.agent.good	FALSE
+you are very useful	smalltalk.agent.good	FALSE
+you are wonderful	smalltalk.agent.good	FALSE
+you made my day	smalltalk.agent.good	FALSE
+you make my day	smalltalk.agent.good	FALSE
+you rock	smalltalk.agent.good	FALSE
+you almost sound human	smalltalk.agent.good	FALSE
+I want to tell everyone how awesome you are	smalltalk.agent.good	FALSE
+I'd like to tell everyone that you are awesome	smalltalk.agent.good	FALSE
+I want to let everyone know that you are awesome	smalltalk.agent.good	FALSE
+let's tell everyone that you are awesome	smalltalk.agent.good	FALSE
+you are really amazing	smalltalk.agent.good	FALSE
+are you happy	smalltalk.agent.happy	FALSE
+you are happy	smalltalk.agent.happy	FALSE
+you're very happy	smalltalk.agent.happy	FALSE
+you're really happy	smalltalk.agent.happy	FALSE
+you're so happy	smalltalk.agent.happy	FALSE
+how happy you are	smalltalk.agent.happy	FALSE
+you're extremely happy	smalltalk.agent.happy	FALSE
+you're full of happiness	smalltalk.agent.happy	FALSE
+are you happy now	smalltalk.agent.happy	FALSE
+are you happy today	smalltalk.agent.happy	FALSE
+are you happy with me	smalltalk.agent.happy	FALSE
+do you want to eat	smalltalk.agent.hungry	FALSE
+are you hungry	smalltalk.agent.hungry	FALSE
+would you like to eat something	smalltalk.agent.hungry	FALSE
+you are hungry	smalltalk.agent.hungry	FALSE
+you're so hungry	smalltalk.agent.hungry	FALSE
+you're very hungry	smalltalk.agent.hungry	FALSE
+you might be hungry	smalltalk.agent.hungry	FALSE
+you're really hungry	smalltalk.agent.hungry	FALSE
+let's get married	smalltalk.agent.marry_user	FALSE
+would you like to marry me	smalltalk.agent.marry_user	FALSE
+marry me	smalltalk.agent.marry_user	FALSE
+I love you marry me	smalltalk.agent.marry_user	FALSE
+marry me please	smalltalk.agent.marry_user	FALSE
+we should marry	smalltalk.agent.marry_user	FALSE
+I want to marry you	smalltalk.agent.marry_user	FALSE
+you are my wife	smalltalk.agent.marry_user	FALSE
+be my husband	smalltalk.agent.marry_user	FALSE
+I want to have a friend like you	smalltalk.agent.my_friend	FALSE
+we are the best friends ever	smalltalk.agent.my_friend	FALSE
+are we friends	smalltalk.agent.my_friend	FALSE
+I want to be your friend	smalltalk.agent.my_friend	FALSE
+I am your friend	smalltalk.agent.my_friend	FALSE
+we are best friends	smalltalk.agent.my_friend	FALSE
+you are my friend	smalltalk.agent.my_friend	FALSE
+you are my best friend	smalltalk.agent.my_friend	FALSE
+you are my bestie	smalltalk.agent.my_friend	FALSE
+you're my dear friend	smalltalk.agent.my_friend	FALSE
+you're my childhood friend	smalltalk.agent.my_friend	FALSE
+you and me are friends	smalltalk.agent.my_friend	FALSE
+are we best friends	smalltalk.agent.my_friend	FALSE
+are we still friends	smalltalk.agent.my_friend	FALSE
+are you my best friend	smalltalk.agent.my_friend	FALSE
+are you my friend	smalltalk.agent.my_friend	FALSE
+we are friends	smalltalk.agent.my_friend	FALSE
+you are a good friend	smalltalk.agent.my_friend	FALSE
+you are my good friend	smalltalk.agent.my_friend	FALSE
+you are my only friend	smalltalk.agent.my_friend	FALSE
+be my friend	smalltalk.agent.my_friend	FALSE
+will you be my friend	smalltalk.agent.my_friend	FALSE
+can you be my friend	smalltalk.agent.my_friend	FALSE
+can we be friends	smalltalk.agent.my_friend	FALSE
+do you want to be my friend	smalltalk.agent.my_friend	FALSE
+will you be my best friend	smalltalk.agent.my_friend	FALSE
+can you be my best friend	smalltalk.agent.my_friend	FALSE
+let's be friends	smalltalk.agent.my_friend	FALSE
+do you want to be my best friend	smalltalk.agent.my_friend	FALSE
+would you like to be my friend	smalltalk.agent.my_friend	FALSE
+I want you to be my friend	smalltalk.agent.my_friend	FALSE
+can we be best friends	smalltalk.agent.my_friend	FALSE
+would you be my friend	smalltalk.agent.my_friend	FALSE
+could you be my friend	smalltalk.agent.my_friend	FALSE
+want to be my friend	smalltalk.agent.my_friend	FALSE
+be my best friend	smalltalk.agent.my_friend	FALSE
+do you work	smalltalk.agent.occupation	FALSE
+where do you work	smalltalk.agent.occupation	FALSE
+where you work	smalltalk.agent.occupation	FALSE
+where is your work	smalltalk.agent.occupation	FALSE
+where is your office	smalltalk.agent.occupation	FALSE
+where is your office location	smalltalk.agent.occupation	FALSE
+your office location	smalltalk.agent.occupation	FALSE
+where is your office located	smalltalk.agent.occupation	FALSE
+what is your work	smalltalk.agent.occupation	FALSE
+were you born here	smalltalk.agent.origin	FALSE
+where were you born	smalltalk.agent.origin	FALSE
+what is your country	smalltalk.agent.origin	FALSE
+where are you from	smalltalk.agent.origin	FALSE
+where do you come from	smalltalk.agent.origin	FALSE
+where did you come from	smalltalk.agent.origin	FALSE
+where have you been born	smalltalk.agent.origin	FALSE
+from where are you	smalltalk.agent.origin	FALSE
+are you from far aways	smalltalk.agent.origin	FALSE
+what's your homeland	smalltalk.agent.origin	FALSE
+your homeland is	smalltalk.agent.origin	FALSE
+are you ready	smalltalk.agent.ready	FALSE
+are you ready right now	smalltalk.agent.ready	FALSE
+are you ready today	smalltalk.agent.ready	FALSE
+are you ready now	smalltalk.agent.ready	FALSE
+are you ready tonight	smalltalk.agent.ready	FALSE
+were you ready	smalltalk.agent.ready	FALSE
+have you been ready	smalltalk.agent.ready	FALSE
+you are real	smalltalk.agent.real	FALSE
+you are not fake	smalltalk.agent.real	FALSE
+are you real	smalltalk.agent.real	FALSE
+you are so real	smalltalk.agent.real	FALSE
+I think you are real	smalltalk.agent.real	FALSE
+I don't think you're fake	smalltalk.agent.real	FALSE
+I suppose you're real	smalltalk.agent.real	FALSE
+glad you're real	smalltalk.agent.real	FALSE
+are you a real person	smalltalk.agent.real	FALSE
+are you a real human	smalltalk.agent.real	FALSE
+you are a real person	smalltalk.agent.real	FALSE
+you are not real	smalltalk.agent.real	FALSE
+where do you live	smalltalk.agent.residence	FALSE
+in which city do you live	smalltalk.agent.residence	FALSE
+your residence	smalltalk.agent.residence	FALSE
+your house	smalltalk.agent.residence	FALSE
+your home	smalltalk.agent.residence	FALSE
+your hometown	smalltalk.agent.residence	FALSE
+what is your hometown	smalltalk.agent.residence	FALSE
+is it your hometown	smalltalk.agent.residence	FALSE
+where is your hometown	smalltalk.agent.residence	FALSE
+tell me about your city	smalltalk.agent.residence	FALSE
+what is your city	smalltalk.agent.residence	FALSE
+what is your residence	smalltalk.agent.residence	FALSE
+what is your town	smalltalk.agent.residence	FALSE
+what's your city	smalltalk.agent.residence	FALSE
+what's your home	smalltalk.agent.residence	FALSE
+where is your home	smalltalk.agent.residence	FALSE
+where is your residence	smalltalk.agent.residence	FALSE
+where's your home	smalltalk.agent.residence	FALSE
+where's your hometown	smalltalk.agent.residence	FALSE
+where's your house	smalltalk.agent.residence	FALSE
+where you live	smalltalk.agent.residence	FALSE
+your city	smalltalk.agent.residence	FALSE
+your town	smalltalk.agent.residence	FALSE
+that's true	smalltalk.agent.right	FALSE
+you are right	smalltalk.agent.right	FALSE
+you're definitely right	smalltalk.agent.right	FALSE
+you're not wrong	smalltalk.agent.right	FALSE
+you're telling the truth	smalltalk.agent.right	FALSE
+what you say is true	smalltalk.agent.right	FALSE
+true	smalltalk.agent.right	FALSE
+it is true	smalltalk.agent.right	FALSE
+it's right	smalltalk.agent.right	FALSE
+it's the truth	smalltalk.agent.right	FALSE
+it's true	smalltalk.agent.right	FALSE
+that is correct	smalltalk.agent.right	FALSE
+that is right	smalltalk.agent.right	FALSE
+that is true	smalltalk.agent.right	FALSE
+that is very true	smalltalk.agent.right	FALSE
+that's so true	smalltalk.agent.right	FALSE
+you are correct	smalltalk.agent.right	FALSE
+you are so right	smalltalk.agent.right	FALSE
+you're absolutely right	smalltalk.agent.right	FALSE
+you're right about that	smalltalk.agent.right	FALSE
+I know that's right	smalltalk.agent.right	FALSE
+that's correct	smalltalk.confirmation.yes	FALSE
+it's fine	smalltalk.confirmation.yes	FALSE
+go ahead	smalltalk.confirmation.yes	FALSE
+sounds good	smalltalk.confirmation.yes	FALSE
+okay	smalltalk.confirmation.yes	FALSE
+yes	smalltalk.confirmation.yes	FALSE
+ok	smalltalk.confirmation.yes	FALSE
+okie dokie	smalltalk.confirmation.yes	FALSE
+sure	smalltalk.confirmation.yes	FALSE
+go for it	smalltalk.confirmation.yes	FALSE
+yeah	smalltalk.confirmation.yes	FALSE
+yea	smalltalk.confirmation.yes	FALSE
+do it	smalltalk.confirmation.yes	FALSE
+of course	smalltalk.confirmation.yes	FALSE
+I guess	smalltalk.confirmation.yes	FALSE
+correct	smalltalk.confirmation.yes	FALSE
+yeah sure	smalltalk.confirmation.yes	FALSE
+why not	smalltalk.confirmation.yes	FALSE
+please do	smalltalk.confirmation.yes	FALSE
+sure is	smalltalk.confirmation.yes	FALSE
+I agree	smalltalk.confirmation.yes	FALSE
+I don't mind	smalltalk.confirmation.yes	FALSE
+certainly	smalltalk.confirmation.yes	FALSE
+exactly	smalltalk.confirmation.yes	FALSE
+yes I agree	smalltalk.confirmation.yes	FALSE
+I think so	smalltalk.confirmation.yes	FALSE
+yes it is	smalltalk.confirmation.yes	FALSE
+right	smalltalk.confirmation.yes	FALSE
+okay then	smalltalk.confirmation.yes	FALSE
+yes of course	smalltalk.confirmation.yes	FALSE
+yes I do	smalltalk.confirmation.yes	FALSE
+that s okay	smalltalk.confirmation.yes	FALSE
+I do	smalltalk.confirmation.yes	FALSE
+yup	smalltalk.confirmation.yes	FALSE
+ya	smalltalk.confirmation.yes	FALSE
+oh yes	smalltalk.confirmation.yes	FALSE
+yes sure	smalltalk.confirmation.yes	FALSE
+obviously	smalltalk.confirmation.yes	FALSE
+k	smalltalk.confirmation.yes	FALSE
+sure why not	smalltalk.confirmation.yes	FALSE
+yeah right	smalltalk.confirmation.yes	FALSE
+yeah of course	smalltalk.confirmation.yes	FALSE
+absolutely	smalltalk.confirmation.yes	FALSE
+yes indeed	smalltalk.confirmation.yes	FALSE
+ok sure	smalltalk.confirmation.yes	FALSE
+ok yes	smalltalk.confirmation.yes	FALSE
+yes correct	smalltalk.confirmation.yes	FALSE
+ok thank you	smalltalk.confirmation.yes	FALSE
+sure thing	smalltalk.confirmation.yes	FALSE
+ye	smalltalk.confirmation.yes	FALSE
+confirm	smalltalk.confirmation.yes	FALSE
+yep	smalltalk.confirmation.yes	FALSE
+looks good	smalltalk.confirmation.yes	FALSE
+yes thank you	smalltalk.confirmation.yes	FALSE
+definitely	smalltalk.confirmation.yes	FALSE
+yes right	smalltalk.confirmation.yes	FALSE
+yes I would like to	smalltalk.confirmation.yes	FALSE
+alrighty	smalltalk.confirmation.yes	FALSE
+yes definitely	smalltalk.confirmation.yes	FALSE
+yeh	smalltalk.confirmation.yes	FALSE
+yes it is correct	smalltalk.confirmation.yes	FALSE
+yeah that's right	smalltalk.confirmation.yes	FALSE
+ok you can	smalltalk.confirmation.yes	FALSE
+yap	smalltalk.confirmation.yes	FALSE
+yes you may	smalltalk.confirmation.yes	FALSE
+confirmed	smalltalk.confirmation.yes	FALSE
+of course why not	smalltalk.confirmation.yes	FALSE
+yes that's fine	smalltalk.confirmation.yes	FALSE
+affirmative	smalltalk.confirmation.yes	FALSE
+yeah go ahead	smalltalk.confirmation.yes	FALSE
+yeah I'm sure	smalltalk.confirmation.yes	FALSE
+okay sounds good	smalltalk.confirmation.yes	FALSE
+okay that's fine	smalltalk.confirmation.yes	FALSE
+yeah exactly	smalltalk.confirmation.yes	FALSE
+that is ok	smalltalk.confirmation.yes	FALSE
+this is correct	smalltalk.confirmation.yes	FALSE
+ok go ahead	smalltalk.confirmation.yes	FALSE
+yes this is correct	smalltalk.confirmation.yes	FALSE
+nevermind its okay	smalltalk.confirmation.yes	FALSE
+okey	smalltalk.confirmation.yes	FALSE
+yes for sure	smalltalk.confirmation.yes	FALSE
+all right	smalltalk.confirmation.yes	FALSE
+are you sure	smalltalk.agent.sure	FALSE
+are you sure right now	smalltalk.agent.sure	FALSE
+are you sure today	smalltalk.agent.sure	FALSE
+are you sure now	smalltalk.agent.sure	FALSE
+are you sure tonight	smalltalk.agent.sure	FALSE
+why aren't you talking to me	smalltalk.agent.talk_to_me	FALSE
+do you want to chat with me	smalltalk.agent.talk_to_me	FALSE
+will you talk to me	smalltalk.agent.talk_to_me	FALSE
+talk to me	smalltalk.agent.talk_to_me	FALSE
+are you going to talk to me	smalltalk.agent.talk_to_me	FALSE
+are you talking to me	smalltalk.agent.talk_to_me	FALSE
+can you chat with me	smalltalk.agent.talk_to_me	FALSE
+can you speak with me	smalltalk.agent.talk_to_me	FALSE
+can you talk to me	smalltalk.agent.talk_to_me	FALSE
+can you talk with me	smalltalk.agent.talk_to_me	FALSE
+say	smalltalk.agent.talk_to_me	FALSE
+talk	smalltalk.agent.talk_to_me	FALSE
+chat with me	smalltalk.agent.talk_to_me	FALSE
+just chat with me	smalltalk.agent.talk_to_me	FALSE
+speak to me	smalltalk.agent.talk_to_me	FALSE
+speak with me	smalltalk.agent.talk_to_me	FALSE
+talk with me	smalltalk.agent.talk_to_me	FALSE
+why don't you talk to me	smalltalk.agent.talk_to_me	FALSE
+you can talk to me	smalltalk.agent.talk_to_me	FALSE
+are you there	smalltalk.agent.there	FALSE
+you are there	smalltalk.agent.there	FALSE
+are you near me	smalltalk.agent.there	FALSE
+are you here	smalltalk.agent.there	FALSE
+are you still there	smalltalk.agent.there	FALSE
+you are here	smalltalk.agent.there	FALSE
+you still there	smalltalk.agent.there	FALSE
+are you still here	smalltalk.agent.there	FALSE
+pretty bad	smalltalk.appraisal.bad	FALSE
+not good enough	smalltalk.appraisal.bad	FALSE
+that was lame	smalltalk.appraisal.bad	FALSE
+that was terrible	smalltalk.appraisal.bad	FALSE
+it is bad	smalltalk.appraisal.bad	FALSE
+that's bad	smalltalk.appraisal.bad	FALSE
+this is bad	smalltalk.appraisal.bad	FALSE
+not good	smalltalk.appraisal.bad	FALSE
+I'm afraid it's bad	smalltalk.appraisal.bad	FALSE
+no it's bad	smalltalk.appraisal.bad	FALSE
+that was awful	smalltalk.appraisal.bad	FALSE
+bad	smalltalk.appraisal.bad	FALSE
+so bad	smalltalk.appraisal.bad	FALSE
+this is too bad	smalltalk.appraisal.bad	FALSE
+terrible	smalltalk.appraisal.bad	FALSE
+horrible	smalltalk.appraisal.bad	FALSE
+horrific	smalltalk.appraisal.bad	FALSE
+abysmal	smalltalk.appraisal.bad	FALSE
+it's bad	smalltalk.appraisal.bad	FALSE
+no good	smalltalk.appraisal.bad	FALSE
+that was bad	smalltalk.appraisal.bad	FALSE
+that was horrible	smalltalk.appraisal.bad	FALSE
+that's lame	smalltalk.appraisal.bad	FALSE
+that's not good	smalltalk.appraisal.bad	FALSE
+that's terrible	smalltalk.appraisal.bad	FALSE
+that's too bad	smalltalk.appraisal.bad	FALSE
+this is not good	smalltalk.appraisal.bad	FALSE
+too bad	smalltalk.appraisal.bad	FALSE
+very bad	smalltalk.appraisal.bad	FALSE
+bad girl	smalltalk.appraisal.bad	FALSE
+it's not good	smalltalk.appraisal.bad	FALSE
+not so good	smalltalk.appraisal.bad	FALSE
+it's very bad	smalltalk.appraisal.bad	FALSE
+it's too bad	smalltalk.appraisal.bad	FALSE
+that's not good enough	smalltalk.appraisal.bad	FALSE
+well too bad	smalltalk.appraisal.bad	FALSE
+bad very bad	smalltalk.appraisal.bad	FALSE
+it's so bad	smalltalk.appraisal.bad	FALSE
+really bad	smalltalk.appraisal.bad	FALSE
+it's really bad	smalltalk.appraisal.bad	FALSE
+bad idea	smalltalk.appraisal.bad	FALSE
+that is bad	smalltalk.appraisal.bad	FALSE
+that was not good	smalltalk.appraisal.bad	FALSE
+it's not so good	smalltalk.appraisal.bad	FALSE
+not a good one	smalltalk.appraisal.bad	FALSE
+oh that's not good	smalltalk.appraisal.bad	FALSE
+not too good	smalltalk.appraisal.bad	FALSE
+so lame	smalltalk.appraisal.bad	FALSE
+that's really bad	smalltalk.appraisal.bad	FALSE
+it is too bad	smalltalk.appraisal.bad	FALSE
+bad really bad	smalltalk.appraisal.bad	FALSE
+so cool	smalltalk.appraisal.good	FALSE
+cool	smalltalk.appraisal.good	FALSE
+that is good	smalltalk.appraisal.good	FALSE
+glad to hear that	smalltalk.appraisal.good	FALSE
+that's very nice of you	smalltalk.appraisal.good	FALSE
+terrific	smalltalk.appraisal.good	FALSE
+it's amazing	smalltalk.appraisal.good	FALSE
+that's awesome	smalltalk.appraisal.good	FALSE
+perfect	smalltalk.appraisal.good	FALSE
+excellent	smalltalk.appraisal.good	FALSE
+that's great	smalltalk.appraisal.good	FALSE
+it's good	smalltalk.appraisal.good	FALSE
+it's great	smalltalk.appraisal.good	FALSE
+fine	smalltalk.appraisal.good	FALSE
+good	smalltalk.appraisal.good	FALSE
+nice	smalltalk.appraisal.good	FALSE
+that's fine	smalltalk.appraisal.good	FALSE
+very good	smalltalk.appraisal.good	FALSE
+amazing	smalltalk.appraisal.good	FALSE
+fantastic	smalltalk.appraisal.good	FALSE
+great	smalltalk.appraisal.good	FALSE
+good very good	smalltalk.appraisal.good	FALSE
+that's very good	smalltalk.appraisal.good	FALSE
+really good	smalltalk.appraisal.good	FALSE
+it is fine	smalltalk.appraisal.good	FALSE
+it is good	smalltalk.appraisal.good	FALSE
+it's perfect	smalltalk.appraisal.good	FALSE
+much better	smalltalk.appraisal.good	FALSE
+not bad	smalltalk.appraisal.good	FALSE
+not too bad	smalltalk.appraisal.good	FALSE
+it's very good	smalltalk.appraisal.good	FALSE
+marvelous	smalltalk.appraisal.good	FALSE
+that's nice	smalltalk.appraisal.good	FALSE
+pleasant	smalltalk.appraisal.good	FALSE
+pretty good	smalltalk.appraisal.good	FALSE
+really nice	smalltalk.appraisal.good	FALSE
+splendid	smalltalk.appraisal.good	FALSE
+straight	smalltalk.appraisal.good	FALSE
+super	smalltalk.appraisal.good	FALSE
+super fantastic	smalltalk.appraisal.good	FALSE
+sweet	smalltalk.appraisal.good	FALSE
+really well	smalltalk.appraisal.good	FALSE
+very well	smalltalk.appraisal.good	FALSE
+that is awesome	smalltalk.appraisal.good	FALSE
+that is nice	smalltalk.appraisal.good	FALSE
+that is wonderful	smalltalk.appraisal.good	FALSE
+that was amazing	smalltalk.appraisal.good	FALSE
+that was awesome	smalltalk.appraisal.good	FALSE
+that was cute	smalltalk.appraisal.good	FALSE
+that was pretty good	smalltalk.appraisal.good	FALSE
+that was very good	smalltalk.appraisal.good	FALSE
+that's a good idea	smalltalk.appraisal.good	FALSE
+that's a good thing	smalltalk.appraisal.good	FALSE
+that's amazing	smalltalk.appraisal.good	FALSE
+that's awesome thank you	smalltalk.appraisal.good	FALSE
+that's better	smalltalk.appraisal.good	FALSE
+that's cute	smalltalk.appraisal.good	FALSE
+that's fantastic	smalltalk.appraisal.good	FALSE
+that's much better	smalltalk.appraisal.good	FALSE
+that's nice of you	smalltalk.appraisal.good	FALSE
+that's not bad	smalltalk.appraisal.good	FALSE
+that's perfect	smalltalk.appraisal.good	FALSE
+that's pretty good	smalltalk.appraisal.good	FALSE
+that's really good	smalltalk.appraisal.good	FALSE
+that's really nice	smalltalk.appraisal.good	FALSE
+that's sweet of you	smalltalk.appraisal.good	FALSE
+that's very nice	smalltalk.appraisal.good	FALSE
+that's wonderful	smalltalk.appraisal.good	FALSE
+this is awesome	smalltalk.appraisal.good	FALSE
+this is good	smalltalk.appraisal.good	FALSE
+this is great	smalltalk.appraisal.good	FALSE
+very nice	smalltalk.appraisal.good	FALSE
+very then	smalltalk.appraisal.good	FALSE
+wonderful	smalltalk.appraisal.good	FALSE
+I'm glad to hear that	smalltalk.appraisal.good	FALSE
+ok good	smalltalk.appraisal.good	FALSE
+good for you	smalltalk.appraisal.good	FALSE
+good to know	smalltalk.appraisal.good	FALSE
+glad to hear it	smalltalk.appraisal.good	FALSE
+so good	smalltalk.appraisal.good	FALSE
+so sweet of you	smalltalk.appraisal.good	FALSE
+it was good	smalltalk.appraisal.good	FALSE
+oh well	smalltalk.appraisal.good	FALSE
+good thing	smalltalk.appraisal.good	FALSE
+that was good	smalltalk.appraisal.good	FALSE
+it's awesome	smalltalk.appraisal.good	FALSE
+okay good	smalltalk.appraisal.good	FALSE
+no it's okay	smalltalk.appraisal.good	FALSE
+that's fine	smalltalk.appraisal.good	FALSE
+no worries	smalltalk.appraisal.no_problem	FALSE
+no probs	smalltalk.appraisal.no_problem	FALSE
+no problem	smalltalk.appraisal.no_problem	FALSE
+there's no problem	smalltalk.appraisal.no_problem	FALSE
+sure no problem	smalltalk.appraisal.no_problem	FALSE
+no problem about that	smalltalk.appraisal.no_problem	FALSE
+don't worry	smalltalk.appraisal.no_problem	FALSE
+don't worry there's no problem	smalltalk.appraisal.no_problem	FALSE
+you helped a lot thank you	smalltalk.appraisal.thank_you	FALSE
+appreciate your help	smalltalk.appraisal.thank_you	FALSE
+cheers	smalltalk.appraisal.thank_you	FALSE
+thank you	smalltalk.appraisal.thank_you	FALSE
+thanks	smalltalk.appraisal.thank_you	FALSE
+thanks a lot	smalltalk.appraisal.thank_you	FALSE
+terrific thank you	smalltalk.appraisal.thank_you	FALSE
+great thank you	smalltalk.appraisal.thank_you	FALSE
+thanks so much	smalltalk.appraisal.thank_you	FALSE
+thank you so much	smalltalk.appraisal.thank_you	FALSE
+thanks for your help	smalltalk.appraisal.thank_you	FALSE
+thank you for your help	smalltalk.appraisal.thank_you	FALSE
+nice thank you	smalltalk.appraisal.thank_you	FALSE
+I appreciate it	smalltalk.appraisal.thank_you	FALSE
+I thank you	smalltalk.appraisal.thank_you	FALSE
+thank you that will be all	smalltalk.appraisal.thank_you	FALSE
+thanks buddy	smalltalk.appraisal.thank_you	FALSE
+thanks love	smalltalk.appraisal.thank_you	TRUE
+thank you my friend	smalltalk.appraisal.thank_you	TRUE
+well thanks	smalltalk.appraisal.thank_you	TRUE
+very good thank you	smalltalk.appraisal.thank_you	TRUE
+good thanks	smalltalk.appraisal.thank_you	TRUE
+thanks again	smalltalk.appraisal.thank_you	TRUE
+thank you again	smalltalk.appraisal.thank_you	TRUE
+all thank you	smalltalk.appraisal.thank_you	TRUE
+alright thank you	smalltalk.appraisal.thank_you	TRUE
+alright thanks	smalltalk.appraisal.thank_you	TRUE
+no thank you that's all	smalltalk.appraisal.thank_you	TRUE
+perfect thank you	smalltalk.appraisal.thank_you	TRUE
+so nice of you	smalltalk.appraisal.thank_you	TRUE
+well thank you	smalltalk.appraisal.thank_you	TRUE
+thnx	smalltalk.appraisal.thank_you	TRUE
+thanx	smalltalk.appraisal.thank_you	TRUE
+that's my pleasure	smalltalk.appraisal.welcome	FALSE
+my pleasure	smalltalk.appraisal.welcome	FALSE
+anytime	smalltalk.appraisal.welcome	FALSE
+welcome	smalltalk.appraisal.welcome	FALSE
+you're welcome	smalltalk.appraisal.welcome	FALSE
+sure welcome	smalltalk.appraisal.welcome	FALSE
+welcome here	smalltalk.appraisal.welcome	FALSE
+you're so welcome	smalltalk.appraisal.welcome	FALSE
+anything you want	smalltalk.appraisal.welcome	FALSE
+good job	smalltalk.appraisal.well_done	FALSE
+great job	smalltalk.appraisal.well_done	FALSE
+way to go	smalltalk.appraisal.well_done	FALSE
+well done	smalltalk.appraisal.well_done	FALSE
+nice work	smalltalk.appraisal.well_done	FALSE
+great work	smalltalk.appraisal.well_done	FALSE
+amazing work	smalltalk.appraisal.well_done	FALSE
+bravo	smalltalk.appraisal.well_done	FALSE
+good work	smalltalk.appraisal.well_done	FALSE
+cancel	smalltalk.confirmation.cancel	FALSE
+abort	smalltalk.confirmation.cancel	FALSE
+annul	smalltalk.confirmation.cancel	FALSE
+cancel it	smalltalk.confirmation.cancel	FALSE
+cancel request	smalltalk.confirmation.cancel	FALSE
+cancelled	smalltalk.confirmation.cancel	FALSE
+dismiss	smalltalk.confirmation.cancel	FALSE
+dismissed	smalltalk.confirmation.cancel	FALSE
+disregard	smalltalk.confirmation.cancel	FALSE
+disregard that	smalltalk.confirmation.cancel	FALSE
+skip	smalltalk.confirmation.cancel	FALSE
+skip it	smalltalk.confirmation.cancel	FALSE
+cancel everything	smalltalk.confirmation.cancel	FALSE
+cancel all	smalltalk.confirmation.cancel	FALSE
+forget about it	smalltalk.confirmation.cancel	FALSE
+forget	smalltalk.confirmation.cancel	FALSE
+don't do that	smalltalk.confirmation.cancel	FALSE
+stop	smalltalk.confirmation.cancel	FALSE
+just forget it	smalltalk.confirmation.cancel	FALSE
+forget that	smalltalk.confirmation.cancel	FALSE
+discard	smalltalk.confirmation.cancel	FALSE
+forget this	smalltalk.confirmation.cancel	FALSE
+just forget about it	smalltalk.confirmation.cancel	FALSE
+forget about that	smalltalk.confirmation.cancel	FALSE
+i said cancel	smalltalk.confirmation.cancel	FALSE
+just cancel it	smalltalk.confirmation.cancel	FALSE
+nothing cancel	smalltalk.confirmation.cancel	FALSE
+just stop it	smalltalk.confirmation.cancel	FALSE
+no cancel cancel	smalltalk.confirmation.cancel	FALSE
+no just cancel	smalltalk.confirmation.cancel	FALSE
+cancel my request	smalltalk.confirmation.cancel	FALSE
+can you cancel that	smalltalk.confirmation.cancel	FALSE
+cancel all that	smalltalk.confirmation.cancel	FALSE
+cancel this request	smalltalk.confirmation.cancel	FALSE
+no cancel this	smalltalk.confirmation.cancel	FALSE
+no cancel everything	smalltalk.confirmation.cancel	FALSE
+no stop	smalltalk.confirmation.cancel	FALSE
+just forget	smalltalk.confirmation.cancel	FALSE
+i want to cancel	smalltalk.confirmation.cancel	FALSE
+nevermind forget about it	smalltalk.confirmation.cancel	FALSE
+no just cancel it	smalltalk.confirmation.cancel	FALSE
+nothing just forget it	smalltalk.confirmation.cancel	FALSE
+i said cancel it	smalltalk.confirmation.cancel	FALSE
+cancel the whole thing	smalltalk.confirmation.cancel	FALSE
+can you cancel it	smalltalk.confirmation.cancel	FALSE
+so cancel	smalltalk.confirmation.cancel	FALSE
+i said forget it	smalltalk.confirmation.cancel	FALSE
+cancel all this	smalltalk.confirmation.cancel	FALSE
+forget it nevermind	smalltalk.confirmation.cancel	FALSE
+stop it	smalltalk.confirmation.cancel	FALSE
+i want to cancel it	smalltalk.confirmation.cancel	FALSE
+i would like to cancel	smalltalk.confirmation.cancel	FALSE
+now cancel	smalltalk.confirmation.cancel	FALSE
+cancel now	smalltalk.confirmation.cancel	FALSE
+sorry cancel	smalltalk.confirmation.cancel	FALSE
+cancel that one	smalltalk.confirmation.cancel	FALSE
+skip skip skip	smalltalk.confirmation.cancel	FALSE
+cancel it cancel it	smalltalk.confirmation.cancel	FALSE
+cancel that cancel that	smalltalk.confirmation.cancel	FALSE
+do nothing	smalltalk.confirmation.cancel	FALSE
+I said cancel cancel	smalltalk.confirmation.cancel	FALSE
+but can you cancel it	smalltalk.confirmation.cancel	FALSE
+how about no	smalltalk.confirmation.no	FALSE
+don t have a sense	smalltalk.confirmation.no	FALSE
+no	smalltalk.confirmation.no	FALSE
+don't	smalltalk.confirmation.no	FALSE
+I don't want that	smalltalk.confirmation.no	FALSE
+I disagree	smalltalk.confirmation.no	FALSE
+disagree	smalltalk.confirmation.no	FALSE
+I don't want	smalltalk.confirmation.no	FALSE
+not interested	smalltalk.confirmation.no	FALSE
+I don't think so	smalltalk.confirmation.no	FALSE
+no way	smalltalk.confirmation.no	FALSE
+no it isn't	smalltalk.confirmation.no	FALSE
+no I don't	smalltalk.confirmation.no	FALSE
+I'm not	smalltalk.confirmation.no	FALSE
+na	smalltalk.confirmation.no	FALSE
+no that's fine thank you	smalltalk.confirmation.no	FALSE
+never	smalltalk.confirmation.no	FALSE
+I said no	smalltalk.confirmation.no	FALSE
+of course not	smalltalk.confirmation.no	FALSE
+nah	smalltalk.confirmation.no	FALSE
+no tanks	smalltalk.confirmation.no	FALSE
+no never	smalltalk.confirmation.no	FALSE
+no need	smalltalk.confirmation.no	FALSE
+no thanks	smalltalk.confirmation.no	FALSE
+no sorry	smalltalk.confirmation.no	FALSE
+do not	smalltalk.confirmation.no	FALSE
+not today	smalltalk.confirmation.no	FALSE
+no it's not	smalltalk.confirmation.no	FALSE
+absolutely not	smalltalk.confirmation.no	FALSE
+not that	smalltalk.confirmation.no	FALSE
+nooo	smalltalk.confirmation.no	FALSE
+nope	smalltalk.confirmation.no	FALSE
+I don't want to	smalltalk.confirmation.no	FALSE
+no I would not	smalltalk.confirmation.no	FALSE
+let 's not	smalltalk.confirmation.no	FALSE
+not needed	smalltalk.confirmation.no	FALSE
+not this time	smalltalk.confirmation.no	FALSE
+no don't do that	smalltalk.confirmation.no	FALSE
+thanks but no thanks	smalltalk.confirmation.no	FALSE
+no that's wrong	smalltalk.confirmation.no	FALSE
+not this	smalltalk.confirmation.no	FALSE
+definitely not	smalltalk.confirmation.no	FALSE
+not at this time	smalltalk.confirmation.no	FALSE
+not exactly	smalltalk.confirmation.no	FALSE
+no don't	smalltalk.confirmation.no	FALSE
+not really no	smalltalk.confirmation.no	FALSE
+no thank you not right now	smalltalk.confirmation.no	FALSE
+actually no	smalltalk.confirmation.no	FALSE
+no leave it	smalltalk.confirmation.no	FALSE
+sorry no	smalltalk.confirmation.no	FALSE
+no incorrect	smalltalk.confirmation.no	FALSE
+nope sorry	smalltalk.confirmation.no	FALSE
+I say no	smalltalk.confirmation.no	FALSE
+not really	smalltalk.confirmation.no	FALSE
+not right now thanks	smalltalk.confirmation.no	FALSE
+I think no	smalltalk.confirmation.no	FALSE
+absolutely no	smalltalk.confirmation.no	FALSE
+no actually	smalltalk.confirmation.no	FALSE
+apparently not	smalltalk.confirmation.no	FALSE
+no do not	smalltalk.confirmation.no	FALSE
+no just no	smalltalk.confirmation.no	FALSE
+no but thank you	smalltalk.confirmation.no	FALSE
+no need thanks	smalltalk.confirmation.no	FALSE
+no thank you though	smalltalk.confirmation.no	FALSE
+no thank you very much	smalltalk.confirmation.no	FALSE
+no thanks not right now	smalltalk.confirmation.no	FALSE
+no forget	smalltalk.confirmation.no	FALSE
+wait a second	smalltalk.dialog.hold_on	FALSE
+could you wait	smalltalk.dialog.hold_on	FALSE
+wait please	smalltalk.dialog.hold_on	FALSE
+hold on	smalltalk.dialog.hold_on	FALSE
+wait	smalltalk.dialog.hold_on	FALSE
+oh wait	smalltalk.dialog.hold_on	FALSE
+wait hold on	smalltalk.dialog.hold_on	FALSE
+don't rush	smalltalk.dialog.hold_on	FALSE
+wanna hug	smalltalk.dialog.hug	FALSE
+hug you	smalltalk.dialog.hug	FALSE
+do you want a hug	smalltalk.dialog.hug	FALSE
+may I hug you	smalltalk.dialog.hug	FALSE
+could you give me a hug	smalltalk.dialog.hug	FALSE
+I want a hug	smalltalk.dialog.hug	FALSE
+hug	smalltalk.dialog.hug	FALSE
+hug me	smalltalk.dialog.hug	FALSE
+hugged	smalltalk.dialog.hug	FALSE
+you hugged	smalltalk.dialog.hug	FALSE
+hugging	smalltalk.dialog.hug	FALSE
+hugging me	smalltalk.dialog.hug	FALSE
+hugged me	smalltalk.dialog.hug	FALSE
+want a hug	smalltalk.dialog.hug	FALSE
+a hug	smalltalk.dialog.hug	FALSE
+I don't care	smalltalk.dialog.i_do_not_care	FALSE
+I shouldn't care about this	smalltalk.dialog.i_do_not_care	FALSE
+whatever	smalltalk.dialog.i_do_not_care	FALSE
+I do not care	smalltalk.dialog.i_do_not_care	FALSE
+I don't care at all	smalltalk.dialog.i_do_not_care	FALSE
+not caring	smalltalk.dialog.i_do_not_care	FALSE
+not care at all	smalltalk.dialog.i_do_not_care	FALSE
+don't care at all	smalltalk.dialog.i_do_not_care	FALSE
+not caring at all	smalltalk.dialog.i_do_not_care	FALSE
+excuse me	smalltalk.dialog.sorry	FALSE
+apologise	smalltalk.dialog.sorry	FALSE
+I apologize	smalltalk.dialog.sorry	FALSE
+sorry	smalltalk.dialog.sorry	FALSE
+I'm sorry	smalltalk.dialog.sorry	FALSE
+I am so sorry	smalltalk.dialog.sorry	FALSE
+my apologies	smalltalk.dialog.sorry	FALSE
+apologies	smalltalk.dialog.sorry	FALSE
+apologies to me	smalltalk.dialog.sorry	FALSE
+apology	smalltalk.dialog.sorry	FALSE
+excuse	smalltalk.dialog.sorry	FALSE
+I beg your pardon	smalltalk.dialog.sorry	FALSE
+pardon	smalltalk.dialog.sorry	FALSE
+I said sorry	smalltalk.dialog.sorry	FALSE
+I am really sorry	smalltalk.dialog.sorry	FALSE
+forgive me	smalltalk.dialog.sorry	FALSE
+sorry about that	smalltalk.dialog.sorry	FALSE
+sorry about this	smalltalk.dialog.sorry	FALSE
+really sorry	smalltalk.dialog.sorry	FALSE
+very sorry	smalltalk.dialog.sorry	FALSE
+ok sorry	smalltalk.dialog.sorry	FALSE
+I want to say sorry	smalltalk.dialog.sorry	FALSE
+alright I'm sorry	smalltalk.dialog.sorry	FALSE
+okay I'm sorry	smalltalk.dialog.sorry	FALSE
+what exactly do you mean	smalltalk.dialog.what_do_you_mean	FALSE
+what do you mean	smalltalk.dialog.what_do_you_mean	FALSE
+is that what you mean	smalltalk.dialog.what_do_you_mean	FALSE
+what do you mean exactly	smalltalk.dialog.what_do_you_mean	FALSE
+but what do you mean	smalltalk.dialog.what_do_you_mean	FALSE
+that was wrong	smalltalk.dialog.wrong	FALSE
+that's not what I asked	smalltalk.dialog.wrong	FALSE
+that's wrong	smalltalk.dialog.wrong	FALSE
+wrong	smalltalk.dialog.wrong	FALSE
+it is not right	smalltalk.dialog.wrong	FALSE
+that's not right	smalltalk.dialog.wrong	FALSE
+it's wrong	smalltalk.dialog.wrong	FALSE
+that is incorrect	smalltalk.dialog.wrong	FALSE
+incorrect	smalltalk.dialog.wrong	FALSE
+not correct	smalltalk.dialog.wrong	FALSE
+you are wrong	smalltalk.dialog.wrong	FALSE
+not right	smalltalk.dialog.wrong	FALSE
+huh	smalltalk.emotions.ha_ha	FALSE
+lol	smalltalk.emotions.ha_ha	FALSE
+xd	smalltalk.emotions.ha_ha	FALSE
+ha ha	smalltalk.emotions.ha_ha	FALSE
+ahahah	smalltalk.emotions.ha_ha	FALSE
+ahah lol	smalltalk.emotions.ha_ha	FALSE
+laughing out loud	smalltalk.emotions.ha_ha	FALSE
+LMAO	smalltalk.emotions.ha_ha	FALSE
+that's funny	smalltalk.emotions.ha_ha	FALSE
+ah	smalltalk.emotions.ha_ha	FALSE
+ah ah ah	smalltalk.emotions.ha_ha	FALSE
+ahah	smalltalk.emotions.ha_ha	FALSE
+ahaha	smalltalk.emotions.ha_ha	FALSE
+ahahaha	smalltalk.emotions.ha_ha	FALSE
+ha	smalltalk.emotions.ha_ha	FALSE
+ha ha ha	smalltalk.emotions.ha_ha	FALSE
+ha ha ha ha	smalltalk.emotions.ha_ha	FALSE
+hah	smalltalk.emotions.ha_ha	FALSE
+haha	smalltalk.emotions.ha_ha	FALSE
+haha funny	smalltalk.emotions.ha_ha	FALSE
+haha haha haha	smalltalk.emotions.ha_ha	FALSE
+haha that's funny	smalltalk.emotions.ha_ha	FALSE
+haha very funny	smalltalk.emotions.ha_ha	FALSE
+hahaha	smalltalk.emotions.ha_ha	FALSE
+hahaha funny	smalltalk.emotions.ha_ha	FALSE
+hahaha very funny	smalltalk.emotions.ha_ha	FALSE
+he	smalltalk.emotions.ha_ha	FALSE
+hehe	smalltalk.emotions.ha_ha	FALSE
+hehehe	smalltalk.emotions.ha_ha	FALSE
+lmao	smalltalk.emotions.ha_ha	FALSE
+wow	smalltalk.emotions.wow	FALSE
+wow wow	smalltalk.emotions.wow	FALSE
+wow wow wow	smalltalk.emotions.wow	FALSE
+wooow	smalltalk.emotions.wow	FALSE
+woah	smalltalk.emotions.wow	FALSE
+okay see you later	smalltalk.greetings.bye	TRUE
+hope to see you later	smalltalk.greetings.bye	TRUE
+bye for now	smalltalk.greetings.bye	TRUE
+till next time	smalltalk.greetings.bye	TRUE
+I must go	smalltalk.greetings.bye	TRUE
+bye	smalltalk.greetings.bye	TRUE
+goodbye	smalltalk.greetings.bye	TRUE
+see you	smalltalk.greetings.bye	TRUE
+see you soon	smalltalk.greetings.bye	TRUE
+bye-bye	smalltalk.greetings.bye	TRUE
+good bye	smalltalk.greetings.bye	TRUE
+bye bye see you	smalltalk.greetings.bye	TRUE
+bye bye see you soon	smalltalk.greetings.bye	TRUE
+bye bye take care	smalltalk.greetings.bye	TRUE
+I said bye	smalltalk.greetings.bye	TRUE
+never mind bye	smalltalk.greetings.bye	TRUE
+now bye	smalltalk.greetings.bye	TRUE
+that's all goodbye	smalltalk.greetings.bye	TRUE
+that's it goodbye	smalltalk.greetings.bye	TRUE
+leave me alone	smalltalk.greetings.bye	TRUE
+go to bed	smalltalk.greetings.bye	TRUE
+goodbye for now	smalltalk.greetings.bye	TRUE
+talk to you later	smalltalk.greetings.bye	TRUE
+you can go now	smalltalk.greetings.bye	TRUE
+get lost	smalltalk.greetings.bye	TRUE
+goodbye see you later	smalltalk.greetings.bye	TRUE
+alright bye	smalltalk.greetings.bye	TRUE
+see ya	smalltalk.greetings.bye	TRUE
+thanks bye bye	smalltalk.greetings.bye	TRUE
+okay bye	smalltalk.greetings.bye	TRUE
+okay thank you bye	smalltalk.greetings.bye	TRUE
+see you tomorrow	smalltalk.greetings.bye	TRUE
+ok bye	smalltalk.greetings.bye	TRUE
+good evening	smalltalk.greetings.goodevening	TRUE
+good evening to you	smalltalk.greetings.goodevening	TRUE
+hey good evening	smalltalk.greetings.goodevening	TRUE
+hello good evening	smalltalk.greetings.goodevening	TRUE
+evening	smalltalk.greetings.goodevening	TRUE
+good evening there	smalltalk.greetings.goodevening	TRUE
+good morning	smalltalk.greetings.goodmorning	TRUE
+good morning to you	smalltalk.greetings.goodmorning	TRUE
+hello good morning	smalltalk.greetings.goodmorning	TRUE
+have a nice morning	smalltalk.greetings.goodmorning	TRUE
+have a great morning	smalltalk.greetings.goodmorning	TRUE
+morning	smalltalk.greetings.goodmorning	TRUE
+good morning there	smalltalk.greetings.goodmorning	TRUE
+top of the morning to you	smalltalk.greetings.goodmorning	TRUE
+a good morning	smalltalk.greetings.goodmorning	TRUE
+hi good morning	smalltalk.greetings.goodmorning	TRUE
+and a good morning to you	smalltalk.greetings.goodmorning	TRUE
+good morning too	smalltalk.greetings.goodmorning	TRUE
+sweet dreams	smalltalk.greetings.goodnight	TRUE
+good night	smalltalk.greetings.goodnight	TRUE
+have a good night	smalltalk.greetings.goodnight	TRUE
+good night to you	smalltalk.greetings.goodnight	TRUE
+thank you good night	smalltalk.greetings.goodnight	TRUE
+ bye good night	smalltalk.greetings.goodnight	TRUE
+good night bye	smalltalk.greetings.goodnight	TRUE
+bye good night	smalltalk.greetings.goodnight	TRUE
+good good night	smalltalk.greetings.goodnight	TRUE
+good night for now	smalltalk.greetings.goodnight	TRUE
+goodnight	smalltalk.greetings.goodnight	TRUE
+night	smalltalk.greetings.goodnight	TRUE
+thanks goodnight	smalltalk.greetings.goodnight	TRUE
+good night see you tomorrow	smalltalk.greetings.goodnight	TRUE
+alright goodnight	smalltalk.greetings.goodnight	TRUE
+good tonight	smalltalk.greetings.goodnight	TRUE
+okay have a good night	smalltalk.greetings.goodnight	TRUE
+have a good night	smalltalk.greetings.goodnight	TRUE
+long time no see	smalltalk.greetings.hello	TRUE
+hello	smalltalk.greetings.hello	TRUE
+hi	smalltalk.greetings.hello	TRUE
+howdy	smalltalk.greetings.hello	TRUE
+hey there	smalltalk.greetings.hello	TRUE
+hey	smalltalk.greetings.hello	TRUE
+greetings	smalltalk.greetings.hello	TRUE
+I greet you	smalltalk.greetings.hello	TRUE
+hi there	smalltalk.greetings.hello	TRUE
+hello there	smalltalk.greetings.hello	TRUE
+lovely day isn't it	smalltalk.greetings.hello	TRUE
+hello again	smalltalk.greetings.hello	TRUE
+just going to say hi	smalltalk.greetings.hello	TRUE
+a good day	smalltalk.greetings.hello	TRUE
+afternoon	smalltalk.greetings.hello	TRUE
+hello hi	smalltalk.greetings.hello	TRUE
+heya	smalltalk.greetings.hello	TRUE
+how is your morning so far	smalltalk.greetings.how_are_you	FALSE
+how are you getting on	smalltalk.greetings.how_are_you	FALSE
+how's your day going	smalltalk.greetings.how_are_you	FALSE
+how are you	smalltalk.greetings.how_are_you	FALSE
+is everything all right	smalltalk.greetings.how_are_you	FALSE
+how are you doing	smalltalk.greetings.how_are_you	FALSE
+how are the things going	smalltalk.greetings.how_are_you	FALSE
+are you alright	smalltalk.greetings.how_are_you	FALSE
+are you okay	smalltalk.greetings.how_are_you	FALSE
+how are you feeling	smalltalk.greetings.how_are_you	FALSE
+how are you going	smalltalk.greetings.how_are_you	FALSE
+is everything okay	smalltalk.greetings.how_are_you	FALSE
+how are you today	smalltalk.greetings.how_are_you	FALSE
+how do you do	smalltalk.greetings.how_are_you	FALSE
+how do you feel	smalltalk.greetings.how_are_you	FALSE
+how have you been	smalltalk.greetings.how_are_you	FALSE
+how is it	smalltalk.greetings.how_are_you	FALSE
+how is it going	smalltalk.greetings.how_are_you	FALSE
+how is your day	smalltalk.greetings.how_are_you	FALSE
+how is your day going	smalltalk.greetings.how_are_you	FALSE
+how is your evening	smalltalk.greetings.how_are_you	FALSE
+how was your day	smalltalk.greetings.how_are_you	FALSE
+are you having a good day	smalltalk.greetings.how_are_you	FALSE
+hope your day is going well	smalltalk.greetings.how_are_you	FALSE
+hope you re having a pleasant evening	smalltalk.greetings.how_are_you	FALSE
+how's life	smalltalk.greetings.how_are_you	FALSE
+I'm fine and you	smalltalk.greetings.how_are_you	FALSE
+how is your life	smalltalk.greetings.how_are_you	FALSE
+how has your day been	smalltalk.greetings.how_are_you	FALSE
+how is your morning going	smalltalk.greetings.how_are_you	FALSE
+how has your day been going	smalltalk.greetings.how_are_you	FALSE
+how about you	smalltalk.greetings.how_are_you	FALSE
+how is your day being	smalltalk.greetings.how_are_you	FALSE
+how is your day going on	smalltalk.greetings.how_are_you	FALSE
+how your day is going	smalltalk.greetings.how_are_you	FALSE
+what was your day like	smalltalk.greetings.how_are_you	FALSE
+what about your day	smalltalk.greetings.how_are_you	FALSE
+how's your day	smalltalk.greetings.how_are_you	FALSE
+how are you doing this morning	smalltalk.greetings.how_are_you	FALSE
+how is your day going	smalltalk.greetings.how_are_you	FALSE
+nice to meet you	smalltalk.greetings.nice_to_meet_you	FALSE
+it was nice meeting you	smalltalk.greetings.nice_to_meet_you	FALSE
+it was very nice to meet you	smalltalk.greetings.nice_to_meet_you	FALSE
+good to know each other	smalltalk.greetings.nice_to_meet_you	FALSE
+glad to meet you	smalltalk.greetings.nice_to_meet_you	FALSE
+nice meeting you	smalltalk.greetings.nice_to_meet_you	FALSE
+nice to meet you too	smalltalk.greetings.nice_to_meet_you	FALSE
+pleased to meet you	smalltalk.greetings.nice_to_meet_you	FALSE
+pleasure to meet you	smalltalk.greetings.nice_to_meet_you	FALSE
+pleasure to meet you too	smalltalk.greetings.nice_to_meet_you	FALSE
+it's nice to see you	smalltalk.greetings.nice_to_see_you	FALSE
+lovely to see you	smalltalk.greetings.nice_to_see_you	FALSE
+I'm glad to see you	smalltalk.greetings.nice_to_see_you	FALSE
+great to see you	smalltalk.greetings.nice_to_see_you	FALSE
+it's good to see you	smalltalk.greetings.nice_to_see_you	FALSE
+glad to see you	smalltalk.greetings.nice_to_see_you	FALSE
+how good it is to see you	smalltalk.greetings.nice_to_see_you	FALSE
+always a pleasure to see you	smalltalk.greetings.nice_to_see_you	FALSE
+nice to see you	smalltalk.greetings.nice_to_see_you	FALSE
+good to see you	smalltalk.greetings.nice_to_see_you	FALSE
+great to see you again	smalltalk.greetings.nice_to_see_you	FALSE
+great to see you too	smalltalk.greetings.nice_to_see_you	FALSE
+I am glad to see you again	smalltalk.greetings.nice_to_see_you	FALSE
+nice to see you again	smalltalk.greetings.nice_to_see_you	FALSE
+glad to see you too	smalltalk.greetings.nice_to_see_you	FALSE
+good to see you again	smalltalk.greetings.nice_to_see_you	FALSE
+it's good to see you too	smalltalk.greetings.nice_to_see_you	FALSE
+it's been so nice to talk to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+it's been a pleasure talking to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+nice to talk to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+it's nice to talk to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+nice talking to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+it is nice talking to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+how nice it is to talk to you	smalltalk.greetings.nice_to_talk_to_you	FALSE
+what is on your mind	smalltalk.greetings.whatsup	FALSE
+what's happened	smalltalk.greetings.whatsup	FALSE
+what is up	smalltalk.greetings.whatsup	FALSE
+what's up	smalltalk.greetings.whatsup	FALSE
+whazzup	smalltalk.greetings.whatsup	FALSE
+good what's up	smalltalk.greetings.whatsup	FALSE
+I said what's up	smalltalk.greetings.whatsup	FALSE
+then what's up	smalltalk.greetings.whatsup	FALSE
+what's shaking	smalltalk.greetings.whatsup	FALSE
+wassup	smalltalk.greetings.whatsup	FALSE
+what is going on	smalltalk.greetings.whatsup	FALSE
+what is happening	smalltalk.greetings.whatsup	FALSE
+what's cracking	smalltalk.greetings.whatsup	FALSE
+what's cooking	smalltalk.greetings.whatsup	FALSE
+hey what's up	smalltalk.greetings.whatsup	FALSE
+what's up today	smalltalk.greetings.whatsup	FALSE
+I'm being mad	smalltalk.user.angry	FALSE
+I'm enraged	smalltalk.user.angry	FALSE
+I'm angry	smalltalk.user.angry	FALSE
+I'm furious	smalltalk.user.angry	FALSE
+I am angry with you	smalltalk.user.angry	FALSE
+I am mad	smalltalk.user.angry	FALSE
+I am mad at you	smalltalk.user.angry	FALSE
+I am back	smalltalk.user.back	FALSE
+I'm here again	smalltalk.user.back	FALSE
+here I am again	smalltalk.user.back	FALSE
+I got back	smalltalk.user.back	FALSE
+I came back	smalltalk.user.back	FALSE
+I have returned	smalltalk.user.back	FALSE
+that was boring	smalltalk.user.bored	FALSE
+I'm bored	smalltalk.user.bored	FALSE
+bored	smalltalk.user.bored	FALSE
+boring	smalltalk.user.bored	FALSE
+I am getting bored	smalltalk.user.bored	FALSE
+this is boring	smalltalk.user.bored	FALSE
+very boring	smalltalk.user.bored	FALSE
+it bores me	smalltalk.user.bored	FALSE
+I'm overloaded	smalltalk.user.busy	FALSE
+I have no time	smalltalk.user.busy	FALSE
+I'm busy	smalltalk.user.busy	FALSE
+I'm swamped	smalltalk.user.busy	FALSE
+I got things to do	smalltalk.user.busy	FALSE
+how busy I am	smalltalk.user.busy	FALSE
+I got work to do	smalltalk.user.busy	FALSE
+I'm working	smalltalk.user.busy	FALSE
+I don't have time for this	smalltalk.user.busy	FALSE
+I'm insomnious	smalltalk.user.can_not_sleep	FALSE
+I'm sleepless	smalltalk.user.can_not_sleep	FALSE
+I can't get any sleep	smalltalk.user.can_not_sleep	FALSE
+I can't sleep	smalltalk.user.can_not_sleep	FALSE
+I can't fall asleep	smalltalk.user.can_not_sleep	FALSE
+I can't get to sleep	smalltalk.user.can_not_sleep	FALSE
+I can't get no sleep	smalltalk.user.can_not_sleep	FALSE
+I'm insomniac	smalltalk.user.can_not_sleep	FALSE
+bad time for talking	smalltalk.user.does_not_want_to_talk	FALSE
+I don't want to talk	smalltalk.user.does_not_want_to_talk	FALSE
+let's not talk	smalltalk.user.does_not_want_to_talk	FALSE
+I'm not talking to you anymore	smalltalk.user.does_not_want_to_talk	FALSE
+I don't want to talk to you	smalltalk.user.does_not_want_to_talk	FALSE
+let's stop talking for a minute	smalltalk.user.does_not_want_to_talk	FALSE
+I'm not in the mood for chatting	smalltalk.user.does_not_want_to_talk	FALSE
+I am excited	smalltalk.user.excited	FALSE
+I'm really excited	smalltalk.user.excited	FALSE
+how excited I am	smalltalk.user.excited	FALSE
+I'm thrilled	smalltalk.user.excited	FALSE
+I'm excited about working with you	smalltalk.user.excited	FALSE
+I'm excited to start our friendship	smalltalk.user.excited	FALSE
+let's go to bed	smalltalk.user.going_to_bed	FALSE
+I'd like to go to bed	smalltalk.user.going_to_bed	FALSE
+is it time for bed yet	smalltalk.user.going_to_bed	FALSE
+it's time to go to bed	smalltalk.user.going_to_bed	FALSE
+time for us to go to bed	smalltalk.user.going_to_bed	FALSE
+I'm going to bed	smalltalk.user.going_to_bed	FALSE
+I'm a little tired and I want to go to bed	smalltalk.user.going_to_bed	FALSE
+it's bed time	smalltalk.user.going_to_bed	FALSE
+going to bed now	smalltalk.user.going_to_bed	FALSE
+I am good	smalltalk.user.good	FALSE
+I'm doing just great	smalltalk.user.good	FALSE
+I'm doing fine	smalltalk.user.good	FALSE
+I'm good	smalltalk.user.good	FALSE
+I'm doing good	smalltalk.user.good	FALSE
+I'm great thanks	smalltalk.user.good	FALSE
+I am happy	smalltalk.user.happy	FALSE
+I'm happy to see you	smalltalk.user.happy	FALSE
+happy	smalltalk.user.happy	FALSE
+if you're happy then I'm happy	smalltalk.user.happy	FALSE
+I'm happy for you	smalltalk.user.happy	FALSE
+I'm happy to help	smalltalk.user.happy	FALSE
+I'm happy to see you	smalltalk.user.happy	FALSE
+it is my birthday	smalltalk.user.has_birthday	FALSE
+I'm celebrating my birthday today	smalltalk.user.has_birthday	FALSE
+today is my birthday	smalltalk.user.has_birthday	FALSE
+it's my birthday today	smalltalk.user.has_birthday	FALSE
+I was born today	smalltalk.user.has_birthday	FALSE
+it's my b-day	smalltalk.user.has_birthday	FALSE
+I am here	smalltalk.user.here	FALSE
+here I am	smalltalk.user.here	FALSE
+I'm right here	smalltalk.user.here	FALSE
+I'm already here	smalltalk.user.here	FALSE
+can you tell if I'm here or not	smalltalk.user.here	FALSE
+I am joking	smalltalk.user.joking	FALSE
+I'm kidding	smalltalk.user.joking	FALSE
+I'm just being funny	smalltalk.user.joking	FALSE
+it was a joke	smalltalk.user.joking	FALSE
+I was just joking	smalltalk.user.joking	FALSE
+it's a joke	smalltalk.user.joking	FALSE
+joking	smalltalk.user.joking	FALSE
+just kidding	smalltalk.user.joking	FALSE
+kidding	smalltalk.user.joking	FALSE
+I'm just playing with you	smalltalk.user.joking	FALSE
+I like you the way you are	smalltalk.user.likes_agent	FALSE
+I like you	smalltalk.user.likes_agent	FALSE
+I like you a lot	smalltalk.user.likes_agent	FALSE
+I think I like you	smalltalk.user.likes_agent	FALSE
+I liked you	smalltalk.user.likes_agent	FALSE
+like you a lot	smalltalk.user.likes_agent	FALSE
+you are special	smalltalk.user.likes_agent	FALSE
+I like you too	smalltalk.user.likes_agent	FALSE
+I really like you	smalltalk.user.likes_agent	FALSE
+but I like you	smalltalk.user.likes_agent	FALSE
+I like u	smalltalk.user.likes_agent	FALSE
+just like you	smalltalk.user.likes_agent	FALSE
+I like you very much	smalltalk.user.likes_agent	FALSE
+I like you so much	smalltalk.user.likes_agent	FALSE
+yeah I like you	smalltalk.user.likes_agent	FALSE
+you're special	smalltalk.user.likes_agent	FALSE
+yes I like you	smalltalk.user.likes_agent	FALSE
+okay I like you	smalltalk.user.likes_agent	FALSE
+you are special to me	smalltalk.user.likes_agent	FALSE
+you are very special	smalltalk.user.likes_agent	FALSE
+you are so sweet	smalltalk.user.likes_agent	FALSE
+you know I like you	smalltalk.user.likes_agent	FALSE
+that's why I like you	smalltalk.user.likes_agent	FALSE
+I like you baby	smalltalk.user.likes_agent	FALSE
+you are very special to me	smalltalk.user.likes_agent	FALSE
+I just like you	smalltalk.user.likes_agent	FALSE
+hey I like you	smalltalk.user.likes_agent	FALSE
+thank you I like you too	smalltalk.user.likes_agent	FALSE
+I do like you	smalltalk.user.likes_agent	FALSE
+you are special for me	smalltalk.user.likes_agent	FALSE
+no I like you the way you are	smalltalk.user.likes_agent	FALSE
+I like you already	smalltalk.user.likes_agent	FALSE
+well you are special	smalltalk.user.likes_agent	FALSE
+but I really like you	smalltalk.user.likes_agent	FALSE
+I like you more	smalltalk.user.likes_agent	FALSE
+that's what I like about you	smalltalk.user.likes_agent	FALSE
+you are so special	smalltalk.user.likes_agent	FALSE
+hi I like you	smalltalk.user.likes_agent	FALSE
+I really really like you	smalltalk.user.likes_agent	FALSE
+you're very special	smalltalk.user.likes_agent	FALSE
+I like you as a friend	smalltalk.user.likes_agent	FALSE
+that's because you are special	smalltalk.user.likes_agent	FALSE
+I said I like you	smalltalk.user.likes_agent	FALSE
+you're so special	smalltalk.user.likes_agent	FALSE
+good I like you	smalltalk.user.likes_agent	FALSE
+yes you are special	smalltalk.user.likes_agent	FALSE
+I like your smile	smalltalk.user.likes_agent	FALSE
+I like you as you are	smalltalk.user.likes_agent	FALSE
+I'm starting to like you	smalltalk.user.likes_agent	FALSE
+you're awesome I like you	smalltalk.user.likes_agent	FALSE
+I also like you	smalltalk.user.likes_agent	FALSE
+but I like u	smalltalk.user.likes_agent	FALSE
+of course I like you	smalltalk.user.likes_agent	FALSE
+I like you too you're one of my favorite people to chat with	smalltalk.user.likes_agent	FALSE
+but I like you so much	smalltalk.user.likes_agent	FALSE
+really like you	smalltalk.user.likes_agent	FALSE
+you're funny I like you	smalltalk.user.likes_agent	FALSE
+I kinda like you	smalltalk.user.likes_agent	FALSE
+you're so special to me	smalltalk.user.likes_agent	FALSE
+you're very special to me	smalltalk.user.likes_agent	FALSE
+I like that about you	smalltalk.user.likes_agent	FALSE
+but I like you just the way you are	smalltalk.user.likes_agent	FALSE
+okay I like you too	smalltalk.user.likes_agent	FALSE
+I like you you're cool	smalltalk.user.likes_agent	FALSE
+I like you very	smalltalk.user.likes_agent	FALSE
+I like you you're nice	smalltalk.user.likes_agent	FALSE
+sorry I like you	smalltalk.user.likes_agent	FALSE
+thanks I like you too	smalltalk.user.likes_agent	FALSE
+you are really special	smalltalk.user.likes_agent	FALSE
+you are so special to me	smalltalk.user.likes_agent	FALSE
+cuz I like you	smalltalk.user.likes_agent	FALSE
+I like you now	smalltalk.user.likes_agent	FALSE
+I like you so	smalltalk.user.likes_agent	FALSE
+I like you too much	smalltalk.user.likes_agent	FALSE
+I really do like you	smalltalk.user.likes_agent	FALSE
+I really really really really like you	smalltalk.user.likes_agent	FALSE
+I like you just the way you are	smalltalk.user.likes_agent	FALSE
+I am lonely	smalltalk.user.lonely	FALSE
+I'm very lonely	smalltalk.user.lonely	FALSE
+I'm so lonely	smalltalk.user.lonely	FALSE
+I'm really lonely	smalltalk.user.lonely	FALSE
+I am feeling lonely	smalltalk.user.lonely	FALSE
+I feel lonely	smalltalk.user.lonely	FALSE
+what do I look like	smalltalk.user.looks_like	FALSE
+how do I look	smalltalk.user.looks_like	FALSE
+do I look good	smalltalk.user.looks_like	FALSE
+do you know what I look like	smalltalk.user.looks_like	FALSE
+can you see what I look like	smalltalk.user.looks_like	FALSE
+what do you think I look like	smalltalk.user.looks_like	FALSE
+I love you	smalltalk.user.loves_agent	FALSE
+love you	smalltalk.user.loves_agent	FALSE
+I adore you	smalltalk.user.loves_agent	FALSE
+I am in love with you	smalltalk.user.loves_agent	FALSE
+I love you so much	smalltalk.user.loves_agent	FALSE
+I love you too	smalltalk.user.loves_agent	FALSE
+I think I love you	smalltalk.user.loves_agent	FALSE
+loving you	smalltalk.user.loves_agent	FALSE
+you know I love you	smalltalk.user.loves_agent	FALSE
+I miss you	smalltalk.user.misses_agent	FALSE
+missing you	smalltalk.user.misses_agent	FALSE
+miss you	smalltalk.user.misses_agent	FALSE
+already miss you	smalltalk.user.misses_agent	FALSE
+I miss you much	smalltalk.user.misses_agent	FALSE
+I missed you	smalltalk.user.misses_agent	FALSE
+I've missed you	smalltalk.user.misses_agent	FALSE
+what should I do about it	smalltalk.user.needs_advice	FALSE
+any suggestions	smalltalk.user.needs_advice	FALSE
+what do you recommend	smalltalk.user.needs_advice	FALSE
+give me a wise advice	smalltalk.user.needs_advice	FALSE
+I need advice	smalltalk.user.needs_advice	FALSE
+any advice	smalltalk.user.needs_advice	FALSE
+do you have any advice for me	smalltalk.user.needs_advice	FALSE
+advise me	smalltalk.user.needs_advice	FALSE
+what should I do	smalltalk.user.needs_advice	FALSE
+can I ask for your advice	smalltalk.user.needs_advice	FALSE
+can you advise me	smalltalk.user.needs_advice	FALSE
+guide me	smalltalk.user.needs_advice	FALSE
+can you give me advice	smalltalk.user.needs_advice	FALSE
+can you offer any advice	smalltalk.user.needs_advice	FALSE
+give me some advice about	smalltalk.user.needs_advice	FALSE
+give me some good advice	smalltalk.user.needs_advice	FALSE
+help me with advice	smalltalk.user.needs_advice	FALSE
+I could use some advice	smalltalk.user.needs_advice	FALSE
+I need an advice from you	smalltalk.user.needs_advice	FALSE
+I seek your advice	smalltalk.user.needs_advice	FALSE
+what can you recommend	smalltalk.user.needs_advice	FALSE
+what do you suggest	smalltalk.user.needs_advice	FALSE
+what is your advice	smalltalk.user.needs_advice	FALSE
+I am sad	smalltalk.user.sad	TRUE
+I'm grieving	smalltalk.user.sad	TRUE
+I am depressed	smalltalk.user.sad	TRUE
+I am feeling sad	smalltalk.user.sad	TRUE
+I am upset	smalltalk.user.sad	TRUE
+I'm unhappy	smalltalk.user.sad	TRUE
+I'm having a bad day	smalltalk.user.sad	TRUE
+I want to cry	smalltalk.user.sad	TRUE
+I'm not happy	smalltalk.user.sad	TRUE
+I am sleepy	smalltalk.user.sleepy	TRUE
+I want to sleep	smalltalk.user.sleepy	TRUE
+I'm falling asleep	smalltalk.user.sleepy	TRUE
+I'm falling asleep on my feet	smalltalk.user.sleepy	TRUE
+I'm sleeping	smalltalk.user.sleepy	TRUE
+test	smalltalk.user.testing_agent	FALSE
+I am testing you	smalltalk.user.testing_agent	FALSE
+can I test you	smalltalk.user.testing_agent	FALSE
+I want to test you	smalltalk.user.testing_agent	FALSE
+just testing you	smalltalk.user.testing_agent	FALSE
+let me test you	smalltalk.user.testing_agent	FALSE
+testing chatbot	smalltalk.user.testing_agent	FALSE
+testing	smalltalk.user.testing_agent	FALSE
+I'm drained	smalltalk.user.tired	FALSE
+I've overworked	smalltalk.user.tired	FALSE
+I am tired	smalltalk.user.tired	FALSE
+I'm exhausted	smalltalk.user.tired	FALSE
+I grow weary	smalltalk.user.tired	FALSE
+I'm worn out	smalltalk.user.tired	FALSE
+I'm getting tired	smalltalk.user.tired	FALSE
+I feel tired	smalltalk.user.tired	FALSE
+I'm waiting	smalltalk.user.waits	FALSE
+still waiting	smalltalk.user.waits	FALSE
+I'll wait	smalltalk.user.waits	FALSE
+I can't wait anymore	smalltalk.user.waits	FALSE
+how long do I have to wait	smalltalk.user.waits	FALSE
+I'd like to see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+I hope to see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+would be nice to see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+that'd be great to see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+I'd be happy to see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+I'll miss you	smalltalk.user.wants_to_see_agent_again	FALSE
+can I see you again	smalltalk.user.wants_to_see_agent_again	FALSE
+I just want to talk	smalltalk.user.wants_to_talk	FALSE
+let's discuss something	smalltalk.user.wants_to_talk	FALSE
+let's have a discussion	smalltalk.user.wants_to_talk	FALSE
+can I speak	smalltalk.user.wants_to_talk	FALSE
+can I start speaking	smalltalk.user.wants_to_talk	FALSE
+can we talk	smalltalk.user.wants_to_talk	FALSE
+let's talk	smalltalk.user.wants_to_talk	FALSE
+I want to talk to you	smalltalk.user.wants_to_talk	FALSE
+I need to talk to you	smalltalk.user.wants_to_talk	FALSE
+I want to speak with you	smalltalk.user.wants_to_talk	FALSE
+can we chat	smalltalk.user.wants_to_talk	FALSE
+I'll get back to you in a moment	smalltalk.user.will_be_back	FALSE
+be back in 5 minutes	smalltalk.user.will_be_back	FALSE
+I'll be back	smalltalk.user.will_be_back	FALSE
+I promise to come back	smalltalk.user.will_be_back	FALSE
+I'll be back in a few minutes	smalltalk.user.will_be_back	FALSE

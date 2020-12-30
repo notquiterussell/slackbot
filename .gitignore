@@ -1,5 +1,7 @@
 .env
 model.nlp
+/train/smalltalk/smalltalk-private.json
+/train/smalltalk/smalltalk-public.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,intellij+all,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,intellij+all,node
@@ -234,3 +236,4 @@ dist
 .vscode-test
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,intellij+all,node
+

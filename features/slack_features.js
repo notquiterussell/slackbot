@@ -67,7 +67,6 @@ module.exports = controller => {
 
   controller.on('direct_message', async (bot, message) => {
     const reply = await privateNlp.process(message.text);
-    console.log(JSON.stringify(reply, null, 2));
 
     if (reply.intent === 'None') {
       await bot.reply(message, `I don't understand '${message.text}'`);
