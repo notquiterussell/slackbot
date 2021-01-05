@@ -2,23 +2,32 @@
   "name": "botkit-helperby",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "slack.js",
   "repository": "https://github.com/notquiterussell/slackbot",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "node bot.js",
+    "slack": "node slack.js",
+    "microsoft": "node microsoft.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "train": "node train",
-    "smalltalk": "node train/smalltalk"
+    "smalltalk": "node train/smalltalk",
+    "qna": "node train/qna",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
+    "botbuilder": "^4.11.0",
     "botbuilder-adapter-slack": "^1.0.13",
-    "botkit": "^4.10.0",
+    "botbuilder-nlpjs": "^1.0.3",
     "dotenv": "^7.0.0",
-    "node-nlp": "^4.17.2"
+    "node-nlp": "^4.17.2",
+    "restify": "^8.5.1"
   },
   "devDependencies": {
     "csv-parse": "^4.14.2",
+    "npm-force-resolutions": "0.0.3",
     "prettier": "2.2.1"
+  },
+  "resolutions": {
+    "axios": "0.21.1"
   }
 }

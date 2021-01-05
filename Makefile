@@ -10,8 +10,12 @@ setup: ## Set up the environment
 	npm install;
 
 train: ## Train the bot
+	npm run qna; \
 	npm run smalltalk; \
 	npm run train;
 
-start: ## Run the bot
-	npm start;
+slack: ## Run the bot in Slack
+	npm run slack;
+
+ms: ## Run the bot in Microsoft
+	npm run microsoft;

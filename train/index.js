@@ -1,8 +1,8 @@
 const path = require('path');
 const NlpManager = require('node-nlp/src/nlp/nlp-manager');
 
-const privateTraining = ['smalltalk/smalltalk-private.json'];
-const publicTraining = ['smalltalk/smalltalk-public.json'];
+const privateTraining = ['smalltalk/smalltalk-private.json', 'qna/qna.json'];
+const publicTraining = ['smalltalk/smalltalk-public.json', 'qna/qna.json'];
 
 /**
  * Convert relative path to absolut
