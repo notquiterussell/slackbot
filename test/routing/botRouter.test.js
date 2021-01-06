@@ -41,7 +41,24 @@ describe('Routing tests', () => {
   it('should allow near patterns', () => {
     const router = new BotRouter();
 
-    router.if('smalltalk/greeting.welcome', (intent, context) => {});
-    router.if('smalltalk/greeting.welcome.near', (intent, context) => {});
+    router.if('smalltalk/greeting.welcome', (intent, context) => {
+      context.short = true;
+      context.long = false;
+    });
+    router.if('smalltalk/greeting.welcome.near', (intent, context) => {
+      context.short = false;
+      context.long = true;
+    });
+
+    expect(router.match({ intent: 'smalltalk/greeting.welcome' })).toBeInstanceOf(Function);
+    expect(router.match({ intent: 'smalltalk/greeting.welcome.near' })).toBeInstanceOf(Function);
+
+    const context = {};
+    router.match({ intent: 'smalltalk/greeting.welcome' })({}, context);
+    expect(context.short).toBeTruthy();
+    expect(context.long).toBeFalsy();
+    router.match({ intent: 'smalltalk/greeting.welcome.near' })({}, context);
+    expect(context.short).toBeFalsy();
+    expect(context.long).toBeTruthy();
   });
 });
