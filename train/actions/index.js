@@ -1,9 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 const parse = require('csv-parse');
-const qnaReplies = require('../../bot/qna-replies');
 
-const inputFile = path.join(__dirname, 'qna.tsv');
+const inputFile = path.join(__dirname, 'actions.tsv');
 
 /**
  * Append the intent to the corpus.
@@ -11,9 +10,8 @@ const inputFile = path.join(__dirname, 'qna.tsv');
  * @param corpus {*} The corpus to append
  * @param intent {string} The intent to append to it
  * @param utterance {string} The utterance to append
- * @param answer {string} The reply
  */
-const append = (corpus, intent, utterance, answer) => {
+const append = (corpus, intent, utterance) => {
   let datum = corpus.data.find(i => i.intent === intent);
 
   if (!datum) {
@@ -22,25 +20,23 @@ const append = (corpus, intent, utterance, answer) => {
   }
 
   datum.utterances.push(utterance);
-  datum.answers = qnaReplies[intent];
 };
 
 const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
-  const qnaCorpus = {
+  const actionCorpus = {
     locale: 'en',
-    name: 'question-and-answer',
+    name: 'actions',
     data: [],
   };
 
   for (let item of data) {
     const intent = item[1];
     const utterance = item[0];
-    const answer = item[2];
 
-    append(qnaCorpus, intent, utterance, answer);
+    append(actionCorpus, intent, utterance);
   }
 
-  fs.writeFileSync(path.join(__dirname, 'qna.json'), JSON.stringify(qnaCorpus));
+  fs.writeFileSync(path.join(__dirname, 'actions.json'), JSON.stringify(actionCorpus));
 });
 
 fs.createReadStream(inputFile).pipe(parser);

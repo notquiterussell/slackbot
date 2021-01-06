@@ -1,0 +1,4 @@
+Question	Intent
+What day is it?	action/dayofweek
+I've forgotten the day	action/dayofweek
+Is it Tuesday today	action/dayofweek

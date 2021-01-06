@@ -16,6 +16,7 @@ setup: ## Set up the environment
 train: ## Train the bot
 	npm run qna; \
 	npm run smalltalk; \
+	npm run actions; \
 	npm run train;
 
 build: .clean ## Compile to JS

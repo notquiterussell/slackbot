@@ -36,9 +36,14 @@ export class BotRouter {
    * @param intent The intent to match
    */
   match(intent: Intent): BotAction | undefined {
-    const callbackMatch = this.routes.find(route => intent.intent.match(route.intentRegex));
-    if (callbackMatch) {
-      return callbackMatch.callback;
+    try {
+      const callbackMatch = this.routes.find(route => intent.intent.match(route.intentRegex));
+      if (callbackMatch) {
+        return callbackMatch.callback;
+      }
+    } catch (e) {
+      console.log(`Error in intent ${intent}`, e);
+      throw e;
     }
   }
 }

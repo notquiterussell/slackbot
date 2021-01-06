@@ -1,7 +1,8 @@
 // Import required Bot Framework classes.
-import { ActionTypes, ActivityHandler, CardFactory, StatePropertyAccessor } from 'botbuilder';
+import { ActionTypes, ActivityHandler, CardFactory, StatePropertyAccessor, TurnContext } from 'botbuilder';
 import { UserState } from 'botbuilder-core';
 import { BotRouter } from '../routing/botRouter';
+import { Intent } from 'botbuilder-nlpjs';
 
 // Welcomed User property name
 const WELCOMED_USER = 'welcomedUserProperty';
@@ -16,39 +17,29 @@ router.if('qna/.*', async (intent, context) => {
   await context.sendActivity(context.turnState.get('answer'));
 });
 
-router.if('welcome/start.here', async (intent, context) => {
-  // The channel should send the user name in the 'From' object
+router.if('welcome/bot.introduction', async (intent, context) => {
   const userName = context.activity.from.name;
-  await context.sendActivity('You are seeing this message because this was your first message ever sent to this bot.');
-  await context.sendActivity(
-    `It is a good practice to welcome the user and provide personal greeting. For example, welcome ${userName}.`
-  );
+  await context.sendActivity(`Hello ${userName}, I'm Helperby the helpful bot`);
+});
+
+router.if('welcome/basic.help', async (intent, context) => {
+  await context.sendActivity("You can ask me questions like 'How do I reset my password' or 'What day is it?'");
+});
+
+router.if('action/dayofweek', async (intent, context) => {
+  await context.sendActivity(new Date().toLocaleDateString(context.locale, { weekday: 'long' }));
 });
 
 export class WelcomeBot extends ActivityHandler {
-  private welcomedUserProperty: StatePropertyAccessor<boolean>;
   private userState: UserState;
 
   public constructor(userState: UserState) {
     super();
-    this.welcomedUserProperty = userState.createProperty(WELCOMED_USER);
     this.userState = userState;
 
     this.onMessage(async (context, next) => {
-      // Read UserState. If the 'DidBotWelcomedUser' does not exist (first time ever for a user)
-      // set the default to false.
-      const didBotWelcomedUser = await this.welcomedUserProperty.get(context, false);
-
-      // Your bot should proactively send a welcome message to a personal chat the first time
-      // (and only the first time) a user initiates a personal chat with your bot.
-      if (didBotWelcomedUser === false) {
-        await WelcomeBot.dispatchToIntent({ intent: 'welcome/start.here' }, context);
-        // Set the flag indicating the bot handled the user's first message.
-        await this.welcomedUserProperty.set(context, true);
-      } else {
-        const intent = context.turnState.get('intent');
-        await WelcomeBot.dispatchToIntent(intent, context);
-      }
+      const intent = context.turnState.get('intent');
+      await WelcomeBot.dispatchToIntent(intent, context);
 
       // By calling next() you ensure that the next BotHandler is run.
       await next();
@@ -64,26 +55,8 @@ export class WelcomeBot extends ActivityHandler {
         // context.activity.membersAdded === context.activity.recipient.Id indicates the
         // bot was added to the conversation, and the opposite indicates this is a user.
         if (context.activity.membersAdded[idx].id !== context.activity.recipient.id) {
-          await context.sendActivity(
-            `Welcome to the 'Welcome User' Bot. This bot will introduce you to welcoming and greeting users.`
-          );
-          await context.sendActivity(
-            `You are seeing this message because the bot received at least one 'ConversationUpdate' ` +
-              `event, indicating you (and possibly others) joined the conversation. If you are using the emulator, ` +
-              `pressing the 'Start Over' button to trigger this event again. The specifics of the 'ConversationUpdate' ` +
-              `event depends on the channel. You can read more information at https://aka.ms/about-botframework-welcome-user`
-          );
-          await context.sendActivity(
-            `You can use the activity's 'locale' property to welcome the user ` +
-              `using the locale received from the channel. ` +
-              `If you are using the Emulator, you can set this value in Settings. ` +
-              `Current locale is '${context.activity.locale}'`
-          );
-          await context.sendActivity(
-            `It is a good pattern to use this event to send general greeting to user, explaining what your bot can do. ` +
-              `In this example, the bot handles 'hello', 'hi', 'help' and 'intro'. ` +
-              `Try it now, type 'hi'`
-          );
+          await WelcomeBot.dispatchToIntent('welcome/bot.introduction', context);
+          await WelcomeBot.dispatchToIntent('welcome/basic.help', context);
         }
       }
 
@@ -130,12 +103,19 @@ export class WelcomeBot extends ActivityHandler {
     await context.sendActivity({ attachments: [card] });
   }
 
-  private static async dispatchToIntent(intent, context) {
-    const cb = router.match(intent);
-    if (!cb) {
-      await WelcomeBot.sendIntroCard(context);
+  private static async dispatchToIntent(intent: Intent | String, context: TurnContext) {
+    let theIntent: Intent;
+    if (['string', 'String'].includes(typeof intent)) {
+      theIntent = { intent: intent as string, score: 1, domain: 'Default' };
     } else {
-      await cb(intent, context);
+      theIntent = intent as Intent;
+    }
+    const cb = router.match(theIntent);
+    if (cb) {
+      await cb(theIntent, context);
+    } else {
+      console.log(`No action found for intent ${theIntent.intent}`);
+      await WelcomeBot.sendIntroCard(context);
     }
   }
 }
