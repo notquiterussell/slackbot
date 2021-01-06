@@ -9,7 +9,7 @@ const restify = require('restify');
 const { UserState, MemoryStorage } = require('botbuilder-core');
 const { BotFrameworkAdapter } = require('botbuilder');
 
-const { WelcomeBot } = require('./bot/welcome');
+const { WelcomeBot } = require('./lib/bots/welcome');
 
 const { NlpjsEngine, Answer, IntentAnalysis, EntityAnalysis, LanguageAnalysis } = require('botbuilder-nlpjs');
 
@@ -71,38 +71,3 @@ NlpjsEngine.build({ languages: ['en'], forceNER: true }, path.join(__dirname, 'f
     });
   }
 );
-
-let tokenCache = {};
-let userCache = {};
-
-if (process.env.TOKENS) {
-  tokenCache = JSON.parse(process.env.TOKENS);
-}
-
-if (process.env.USERS) {
-  userCache = JSON.parse(process.env.USERS);
-}
-
-async function getTokenForTeam(teamId) {
-  if (tokenCache[teamId]) {
-    return new Promise(resolve => {
-      setTimeout(function () {
-        resolve(tokenCache[teamId]);
-      }, 150);
-    });
-  } else {
-    console.error('Team not found in tokenCache: ', teamId);
-  }
-}
-
-async function getBotUserByTeam(teamId) {
-  if (userCache[teamId]) {
-    return new Promise(resolve => {
-      setTimeout(function () {
-        resolve(userCache[teamId]);
-      }, 150);
-    });
-  } else {
-    console.error('Team not found in userCache: ', teamId);
-  }
-}

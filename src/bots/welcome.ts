@@ -1,24 +1,28 @@
-// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
-
 // Import required Bot Framework classes.
-const { ActionTypes, ActivityHandler, CardFactory } = require('botbuilder');
+import { ActionTypes, ActivityHandler, CardFactory, StatePropertyAccessor } from 'botbuilder';
+import { UserState } from 'botbuilder-core';
+import { BotRouter } from '../routing/botRouter';
 
 // Welcomed User property name
 const WELCOMED_USER = 'welcomedUserProperty';
 
-class WelcomeBot extends ActivityHandler {
-  /**
-   *
-   * @param userState {UserState} User state to persist boolean flag to indicate
-   *                    if the bot had already welcomed the user
-   */
-  constructor(userState) {
-    super();
-    // Creates a new user property accessor.
-    // See https://aka.ms/about-bot-state-accessors to learn more about the bot state and state accessors.
-    this.welcomedUserProperty = userState.createProperty(WELCOMED_USER);
+const router = new BotRouter();
 
+router.if('smalltalk/.*', async (intent, context) => {
+  await context.sendActivity(context.turnState.get('answer'));
+});
+
+router.if('qna/.*', async (intent, context) => {
+  await context.sendActivity(context.turnState.get('answer'));
+});
+
+export class WelcomeBot extends ActivityHandler {
+  private welcomedUserProperty: StatePropertyAccessor<boolean>;
+  private userState: UserState;
+
+  public constructor(userState: UserState) {
+    super();
+    this.welcomedUserProperty = userState.createProperty(WELCOMED_USER);
     this.userState = userState;
 
     this.onMessage(async (context, next) => {
@@ -42,7 +46,7 @@ class WelcomeBot extends ActivityHandler {
         await this.welcomedUserProperty.set(context, true);
       } else {
         const intent = context.turnState.get('intent');
-        await this.dispatchToTopIntentAsync(context, intent);
+        await WelcomeBot.dispatchToTopIntentAsync(context, intent);
       }
 
       // By calling next() you ensure that the next BotHandler is run.
@@ -97,7 +101,7 @@ class WelcomeBot extends ActivityHandler {
     await this.userState.saveChanges(context);
   }
 
-  async sendIntroCard(context) {
+  private static async sendIntroCard(context) {
     const card = CardFactory.heroCard(
       'Welcome to Bot Framework!',
       'Welcome to Welcome Users bot sample! This Introduction card is a great way to introduce your Bot to the user and suggest some things to get them started. We use this opportunity to recommend a few next steps for learning more creating and deploying bots.',
@@ -125,24 +129,12 @@ class WelcomeBot extends ActivityHandler {
     await context.sendActivity({ attachments: [card] });
   }
 
-  async dispatchToTopIntentAsync(context, intent) {
-    console.log(intent);
-    if (intent && intent.intent !== 'None') {
-      const kind = intent.intent.split('/')[0];
-      switch (kind) {
-        case 'smalltalk':
-          await context.sendActivity(context.turnState.get('answer'));
-          break;
-        case 'qna':
-          await context.sendActivity(context.turnState.get('answer'));
-          break;
-        default:
-          console.log(`Unhandled event ${JSON.stringify(intent)}`);
-      }
+  private static async dispatchToTopIntentAsync(context, intent) {
+    const cb = router.match(intent);
+    if (!cb) {
+      await WelcomeBot.sendIntroCard(context);
     } else {
-      await context.sendActivity(`I don't understand ${context.activity.text}`);
+      await cb(intent, context);
     }
   }
 }
-
-module.exports.WelcomeBot = WelcomeBot;
