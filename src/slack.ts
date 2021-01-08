@@ -53,16 +53,49 @@ const conversationState = new ConversationState(memoryStorage);
 class SlackSender implements Sender {
   private readonly _botWorker: BotWorker;
   private readonly _message: BotkitMessage;
+  private readonly _threadReply: boolean;
 
-  constructor(botWorker: BotWorker, message: BotkitMessage) {
+  constructor(botWorker: BotWorker, message: BotkitMessage, threadReply: boolean) {
     this._botWorker = botWorker;
     this._message = message;
+    this._threadReply = threadReply;
   }
 
   send(data: any): Promise<any> | undefined {
+    if (this._threadReply) {
+      // @ts-ignore
+      return this._botWorker.replyInThread(this._message, data);
+    }
     return this._botWorker.reply(this._message, data);
   }
 }
+
+/**
+ * Handle a public message.
+ *
+ * @param message The message to process
+ * @param bot The bot to reply to
+ * @returns {Promise<void>}
+ */
+const handlePublicMessageAndReplyThread = async (message, bot) => {
+  if (message.text) {
+    const intent = message.context.turnState.get('intent');
+
+    const cb = router.match(intent);
+    if (cb) {
+      const ctx: BotContext = {
+        turnContext: message.context,
+        userState: userState,
+        conversationState: conversationState,
+        sender: new SlackSender(bot, message, true),
+      };
+
+      await cb(intent, ctx);
+    }
+  } else {
+    await bot.replyInThread(message, 'You rang?');
+  }
+};
 
 NlpjsEngine.build({ languages: ['en'], forceNER: true }, process.env.MODEL).then(nlpEngine => {
   adapter.use(new Answer(nlpEngine));
@@ -93,13 +126,28 @@ NlpjsEngine.build({ languages: ['en'], forceNER: true }, process.env.MODEL).then
         turnContext: message.context,
         userState: userState,
         conversationState: conversationState,
-        sender: new SlackSender(bot, message),
+        sender: new SlackSender(bot, message, false),
       };
 
       await cb(intent, ctx);
     } else {
       await bot.reply(message, `I don't understand '${message.text}'`);
     }
+  });
+
+  controller.on('direct_mention', async (bot, message) => {
+    await handlePublicMessageAndReplyThread(message, bot);
+  });
+
+  controller.on('mention', async (bot, message) => {
+    await handlePublicMessageAndReplyThread(message, bot);
+  });
+
+  /**
+   * Listen to everything and see if we can help.
+   */
+  controller.hears('.*', 'message', async (bot, message) => {
+    await handlePublicMessageAndReplyThread(message, bot);
   });
 
   controller.webserver.get('/', (req, res) => {
