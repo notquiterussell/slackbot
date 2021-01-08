@@ -24,7 +24,7 @@ module.exports = controller => {
     if (process.env.MYTEAM) {
       const bot = await controller.spawn(process.env.MYTEAM);
       await bot.startConversationInChannel(process.env.MYCHAN, process.env.MYUSER);
-      bot.say('Hello.');
+      await bot.say('Hello.');
     }
   });
 

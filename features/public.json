@@ -67735,7 +67735,7 @@
         ],
         "qna/password.reset": [
           {
-            "answer": "Go to https://update.bjss.com"
+            "answer": "Go to https://accounts.google.com/signin/v2/recoveryidentifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"
           }
         ]
       }

@@ -27,3 +27,6 @@ slack: ## Run the bot in Slack
 
 ms: ## Run the bot in Microsoft
 	npm run microsoft;
+
+test: ## Test the bot
+	npm run test;

@@ -1,8 +1,24 @@
-import { TurnContext } from 'botbuilder';
+import { ConversationState, TurnContext, UserState } from 'botbuilder';
 import type { Intent } from 'botbuilder-nlpjs';
 
+export interface Sender {
+  /**
+   * Send the given data to the bot.
+   * @param data The data to send
+   */
+  send(data: any): Promise<any> | undefined;
+}
+
+export type BotContext = {
+  turnContext: TurnContext;
+
+  sender: Sender;
+  userState: UserState;
+  conversationState: ConversationState;
+};
+
 export interface BotAction {
-  (intent: Intent, context: TurnContext): Promise<void>;
+  (intent: Intent, context: BotContext): Promise<void>;
 }
 
 type BotCallback = { intentRegex: RegExp; callback: BotAction };
