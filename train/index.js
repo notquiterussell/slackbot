@@ -2,7 +2,6 @@ const path = require('path');
 const NlpManager = require('node-nlp/src/nlp/nlp-manager');
 
 const privateTraining = ['smalltalk/smalltalk-private.json', 'qna/qna.json', 'actions/actions.json'];
-const publicTraining = ['smalltalk/smalltalk-public.json', 'qna/qna.json', 'actions/actions.json'];
 
 /**
  * Convert relative path to absolut
@@ -29,6 +28,5 @@ const train = async (name, corpora) => {
 };
 
 (async () => {
-  await train('private', [...toPath(privateTraining), ...toPath(publicTraining)]);
-  await train('public', [...toPath(publicTraining)]);
+  await train('private', [...toPath(privateTraining)]);
 })();

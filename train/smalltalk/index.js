@@ -14,10 +14,16 @@ const inputFile = path.join(__dirname, 'smalltalk.tsv');
  * @param corpus {*} The corpus to append
  * @param intent {string} The intent to append to it
  * @param utterance {string} The utterance to append
- * @param appendReply {boolean} Is this public?
+ * @param isPublic {boolean} Is this public?
  */
-const append = (corpus, intent, utterance, appendReply) => {
+const append = (corpus, intent, utterance, isPublic) => {
   let datum = corpus.data.find(i => i.intent === intent);
+
+  const answers = smalltalkReplies[intent];
+
+  if (!isPublic) {
+    intent = `${intent}:private`;
+  }
 
   if (!datum) {
     datum = { intent: intent, utterances: [], answers: [] };
@@ -25,17 +31,10 @@ const append = (corpus, intent, utterance, appendReply) => {
   }
 
   datum.utterances.push(utterance);
-  if (appendReply) {
-    datum.answers = smalltalkReplies[intent];
-  }
+  datum.answers = answers;
 };
 
 const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
-  const publicCorpus = {
-    locale: 'en',
-    name: 'smalltalk-public',
-    data: [],
-  };
   const privateCorpus = {
     locale: 'en',
     name: 'smalltalk-private',
@@ -47,11 +46,9 @@ const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
     const utterance = item[0];
     const isPublic = item[2] === 'TRUE';
 
-    append(publicCorpus, intent, utterance, isPublic);
-    append(privateCorpus, intent, utterance, true);
+    append(privateCorpus, intent, utterance, isPublic);
   }
 
-  fs.writeFileSync(path.join(__dirname, 'smalltalk-public.json'), JSON.stringify(publicCorpus));
   fs.writeFileSync(path.join(__dirname, 'smalltalk-private.json'), JSON.stringify(privateCorpus));
 });
 

@@ -2,7 +2,7 @@ import { ConversationState, MemoryStorage, UserState } from 'botbuilder';
 import { SlackAdapter, SlackMessageTypeMiddleware, SlackEventMiddleware } from 'botbuilder-adapter-slack';
 import { Botkit, BotWorker, BotkitMessage } from 'botkit';
 import { NlpjsEngine, Answer, IntentAnalysis, EntityAnalysis } from 'botbuilder-nlpjs';
-import { BotContext, BotRouter, Sender } from './routing/botRouter';
+import { BotContext, Sender } from './routing/botRouter';
 import { router } from './bots/routes';
 
 const adapter = new SlackAdapter({
@@ -80,6 +80,11 @@ class SlackSender implements Sender {
 const handlePublicMessageAndReplyThread = async (message, bot) => {
   if (message.text) {
     const intent = message.context.turnState.get('intent');
+
+    // Don't reply to intents for private channels
+    if (intent.intent.endsWith(':private')) {
+      return;
+    }
 
     const cb = router.match(intent);
     if (cb) {
