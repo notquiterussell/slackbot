@@ -2,7 +2,7 @@ import { BotRouter } from '../../routing/botRouter';
 
 export const welcome = (router: BotRouter) => {
   router.if('welcome/bot.introduction', async (intent, context) => {
-    const userName = context.turnContext.activity.from.name;
+    const userName = context.message.context.turnState.activity.from.name;
     await context.sender.send(`Hello ${userName}, I'm Helperby the helpful bot`);
   });
 

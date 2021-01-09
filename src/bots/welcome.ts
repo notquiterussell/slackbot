@@ -89,9 +89,8 @@ export class WelcomeBot extends ActivityHandler {
 
     if (cb) {
       const ctx: BotContext = {
-        turnContext: context,
-        userState: null,
-        conversationState: null,
+        bot: null,
+        message: null,
         sender: new MicrosoftSender(context),
       };
       await cb(intent, ctx);

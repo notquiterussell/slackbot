@@ -1,4 +1,4 @@
-import { ConversationState, TurnContext, UserState } from 'botbuilder';
+import { BotWorker, BotkitMessage } from 'BotKit';
 import type { Intent } from 'botbuilder-nlpjs';
 
 export interface Sender {
@@ -10,11 +10,9 @@ export interface Sender {
 }
 
 export type BotContext = {
-  turnContext: TurnContext;
-
+  bot: BotWorker;
+  message: BotkitMessage;
   sender: Sender;
-  userState: UserState;
-  conversationState: ConversationState;
 };
 
 export interface BotAction {
@@ -58,7 +56,7 @@ export class BotRouter {
         return callbackMatch.callback;
       }
     } catch (e) {
-      console.log(`Error in intent ${intent}`, e);
+      console.log(`Error matching intent ${intent}`, e);
       throw e;
     }
   }

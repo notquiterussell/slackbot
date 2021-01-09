@@ -34,7 +34,7 @@ NlpjsEngine.build({ languages: ['en'], forceNER: true }, process.env.MODEL).then
   adapter.use(new EntityAnalysis(nlpEngine));
 
   const server = restify.createServer();
-  server.listen(process.env.port || process.env.PORT || 3000, () => {
+  server.listen(process.env.port || process.env.PORT || 3001, () => {
     console.log(`\n${server.name} listening to ${server.url}`);
   });
   server.post('/api/messages', (req, res) => {
