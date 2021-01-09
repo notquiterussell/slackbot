@@ -23,10 +23,10 @@ build: .clean ## Compile to JS
 	npm run build;
 
 slack: ## Run the bot in Slack
-	npm run slack;
+	export PORT=3000; npm run slack;
 
 ms: ## Run the bot in Microsoft
-	npm run microsoft;
+	export PORT=3001; npm run microsoft;
 
 test: ## Test the bot
 	npm run test;
