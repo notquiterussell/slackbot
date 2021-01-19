@@ -1,6 +1,6 @@
 import * as path from 'path';
 
-import { BotAdapter, Storage } from 'botbuilder';
+import { BotAdapter, Storage, UserState } from 'botbuilder';
 import { Botkit } from 'botkit';
 import { Answer, EntityAnalysis, IntentAnalysis, NlpjsEngine } from 'botbuilder-nlpjs';
 

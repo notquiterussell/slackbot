@@ -37,7 +37,19 @@ module.exports = controller => {
 
     // do a simple conditional branch looking for user to say "no"
     convo.addQuestion(
-      'Your name is {{vars.name}} and your favorite color is {{vars.color}}. Is that right?',
+      {
+        text: () => 'Your name is {{vars.name}} and your favorite color is {{vars.color}}. Is that right?',
+        quick_replies: [
+          {
+            title: 'Yes',
+            payload: 'yes',
+          },
+          {
+            title: 'No',
+            payload: 'no',
+          },
+        ],
+      },
       [
         {
           pattern: 'no',

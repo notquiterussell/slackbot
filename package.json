@@ -17,6 +17,7 @@
     "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
+    "@botbuildercommunity/storage-mongodb": "^1.0.1",
     "botbuilder": "^4.11.0",
     "botbuilder-adapter-slack": "^1.0.13",
     "botbuilder-nlpjs": "^1.0.4",
