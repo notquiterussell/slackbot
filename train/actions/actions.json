@@ -1,1 +1,0 @@
-{"locale":"en","name":"actions","data":[{"intent":"action/dayofweek","utterances":["What day is it?","I've forgotten the day","Is it Tuesday today"],"answers":[]},{"intent":"action/askthings","utterances":["AMA","Ask me anything "],"answers":[]}]}

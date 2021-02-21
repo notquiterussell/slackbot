@@ -1,8 +1,8 @@
 import * as path from 'path';
 
-import { BotAdapter, Storage, UserState } from 'botbuilder';
+import { BotAdapter, Storage } from 'botbuilder';
 import { Botkit } from 'botkit';
-import { Answer, EntityAnalysis, IntentAnalysis, NlpjsEngine } from 'botbuilder-nlpjs';
+import { Answer, EntityAnalysis, IntentAnalysis, NlpjsEngine, Slots } from 'botbuilder-nlpjs';
 
 export class BotService {
   private readonly _adapter: BotAdapter;
@@ -36,6 +36,7 @@ export class BotService {
       this._adapter.use(new Answer(nlpEngine));
       this._adapter.use(new IntentAnalysis(nlpEngine));
       this._adapter.use(new EntityAnalysis(nlpEngine));
+      this._adapter.use(new Slots(nlpEngine));
 
       const controller = new Botkit({
         webhook_uri: '/api/messages',
@@ -53,7 +54,7 @@ export class BotService {
   }
 
   protected async onTurnError(context, error) {
-    console.error(`\n [onTurnError] unhandled error: ${error}`);
+    console.error(`\n [onTurnError] unhandled error: ${error}`, error);
 
     await context.sendTraceActivity(
       'OnTurnError Trace',

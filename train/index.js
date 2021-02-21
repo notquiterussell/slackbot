@@ -1,32 +1,29 @@
 const path = require('path');
-const NlpManager = require('node-nlp/src/nlp/nlp-manager');
 
-const privateTraining = ['smalltalk/smalltalk-private.json', 'qna/qna.json', 'actions/actions.json'];
+const { NlpManager } = require('node-nlp');
 
-/**
- * Convert relative path to absolut
- * @param paths
- * @returns {[string]}
- */
-const toPath = paths => {
-  return paths.map(p => path.join(__dirname, p));
-};
+const smalltalk = require('./smalltalk');
+const qna = require('./qna');
+const actions = require('./actions');
 
 /**
  * Create the training model of the given name.
  *
  * @param name The name to save
- * @param corpora The corpora to train on
  * @returns {Promise<void>}
  */
-const train = async (name, corpora) => {
+const train = async name => {
   const nlp = new NlpManager({ languages: ['en'], forceNER: true, trainByDomain: true, autoSave: false });
-  await nlp.addCorpora(corpora);
+
+  await smalltalk(nlp);
+  await qna(nlp);
+  await actions(nlp);
 
   await nlp.train();
   nlp.save(path.join(__dirname, '..', 'features', `${name}.json`));
 };
 
+// Main
 (async () => {
-  await train('private', [...toPath(privateTraining)]);
+  await train('private');
 })();

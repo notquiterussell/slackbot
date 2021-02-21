@@ -1,46 +1,39 @@
-const path = require('path');
 const fs = require('fs');
-const parse = require('csv-parse');
-const qnaReplies = require('../../bot/qna-replies');
+const path = require('path');
+const csv = require('csv-parser');
 
-const inputFile = path.join(__dirname, 'qna.tsv');
+const qnaReplies = require('./qna-replies');
 
 /**
- * Append the intent to the corpus.
- *
- * @param corpus {*} The corpus to append
- * @param intent {string} The intent to append to it
- * @param utterance {string} The utterance to append
- * @param answer {string} The reply
+ * @param nlp {NlpManager} NLP manager
+ * @returns {Promise<void>}
  */
-const append = (corpus, intent, utterance, answer) => {
-  let datum = corpus.data.find(i => i.intent === intent);
+const process = nlp => {
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(path.join(__dirname, 'qna.tsv'))
+      .pipe(csv({ separator: '\t' }))
+      .on('data', row => {
+        const utterance = row.Question;
 
-  if (!datum) {
-    datum = { intent: intent, utterances: [], answers: [] };
-    corpus.data.push(datum);
-  }
+        const intent = row.Intent;
+        // Get the replies before deciding its private
+        const qnaReply = qnaReplies[intent];
 
-  datum.utterances.push(utterance);
-  datum.answers = qnaReplies[intent];
+        nlp.assignDomain('en', intent, 'qna');
+        nlp.addDocument('en', utterance, intent);
+
+        if (qnaReply) {
+          qnaReply.forEach(answer => {
+            nlp.addAnswer('en', intent, answer);
+          });
+        } else {
+          console.log('No reply for intent', intent);
+        }
+      })
+      .on('end', () => {
+        resolve();
+      });
+  });
 };
 
-const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
-  const qnaCorpus = {
-    locale: 'en',
-    name: 'question-and-answer',
-    data: [],
-  };
-
-  for (let item of data) {
-    const intent = item[1];
-    const utterance = item[0];
-    const answer = item[2];
-
-    append(qnaCorpus, intent, utterance, answer);
-  }
-
-  fs.writeFileSync(path.join(__dirname, 'qna.json'), JSON.stringify(qnaCorpus));
-});
-
-fs.createReadStream(inputFile).pipe(parser);
+module.exports = process;

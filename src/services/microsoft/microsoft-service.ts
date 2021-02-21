@@ -30,6 +30,8 @@ module.exports = controller => {
 
         await cb(intent, ctx);
       } else {
+        console.log('Intent', message.context.turnState.get('intent'));
+        console.log('Entities', message.context.turnState.get('entities'));
         await bot.reply(message, `I don't understand '${message.text}'`);
       }
     });

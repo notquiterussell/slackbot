@@ -1,42 +1,31 @@
-const path = require('path');
 const fs = require('fs');
-const parse = require('csv-parse');
+const path = require('path');
+const csv = require('csv-parser');
 
-const inputFile = path.join(__dirname, 'actions.tsv');
+const travel = require('./travel');
 
 /**
- * Append the intent to the corpus.
- *
- * @param corpus {*} The corpus to append
- * @param intent {string} The intent to append to it
- * @param utterance {string} The utterance to append
+ * @param nlp {NlpManager} NLP manager
+ * @returns {Promise<void>}
  */
-const append = (corpus, intent, utterance) => {
-  let datum = corpus.data.find(i => i.intent === intent);
+const process = nlp => {
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(path.join(__dirname, 'actions.tsv'))
+      .pipe(csv({ separator: '\t' }))
+      .on('data', row => {
+        const utterance = row.Question;
 
-  if (!datum) {
-    datum = { intent: intent, utterances: [], answers: [] };
-    corpus.data.push(datum);
-  }
+        const intent = row.Intent;
 
-  datum.utterances.push(utterance);
+        nlp.assignDomain('en', intent, 'actions');
+        nlp.addDocument('en', utterance, intent);
+
+        travel(nlp);
+      })
+      .on('end', () => {
+        resolve();
+      });
+  });
 };
 
-const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
-  const actionCorpus = {
-    locale: 'en',
-    name: 'actions',
-    data: [],
-  };
-
-  for (let item of data) {
-    const intent = item[1];
-    const utterance = item[0];
-
-    append(actionCorpus, intent, utterance);
-  }
-
-  fs.writeFileSync(path.join(__dirname, 'actions.json'), JSON.stringify(actionCorpus));
-});
-
-fs.createReadStream(inputFile).pipe(parser);
+module.exports = process;

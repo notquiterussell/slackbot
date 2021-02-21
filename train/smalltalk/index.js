@@ -1,55 +1,43 @@
-const path = require('path');
 const fs = require('fs');
+const path = require('path');
+const csv = require('csv-parser');
 
-const parse = require('csv-parse');
-
-const smalltalkReplies = require('../../bot/smalltalk-replies');
-
-const inputFile = path.join(__dirname, 'smalltalk.tsv');
+const smalltalkReplies = require('./smalltalk-replies');
 
 /**
- * Append the intent to the corpus. Only provides a reply if intent should be replied to. This allows for a more
- * formal bot in public channels, and a cheekier bot in private.
- *
- * @param corpus {*} The corpus to append
- * @param intent {string} The intent to append to it
- * @param utterance {string} The utterance to append
- * @param isPublic {boolean} Is this public?
+ * @param nlp {NlpManager} NLP manager
+ * @returns {Promise<void>}
  */
-const append = (corpus, intent, utterance, isPublic) => {
-  let datum = corpus.data.find(i => i.intent === intent);
+const process = nlp => {
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(path.join(__dirname, 'smalltalk.tsv'))
+      .pipe(csv({ separator: '\t' }))
+      .on('data', row => {
+        const utterance = row.Question;
 
-  const answers = smalltalkReplies[intent];
+        let intent = row.Answer;
+        // Get the replies before deciding its private
+        const smalltalkReply = smalltalkReplies[intent];
 
-  if (!isPublic) {
-    intent = `${intent}:private`;
-  }
+        if (row.Public === 'FALSE') {
+          intent = `${intent}:private`;
+        }
 
-  if (!datum) {
-    datum = { intent: intent, utterances: [], answers: [] };
-    corpus.data.push(datum);
-  }
+        nlp.assignDomain('en', intent, 'smalltalk');
+        nlp.addDocument('en', utterance, intent);
 
-  datum.utterances.push(utterance);
-  datum.answers = answers;
+        if (smalltalkReply) {
+          smalltalkReply.forEach(answer => {
+            nlp.addAnswer('en', intent, answer);
+          });
+        } else {
+          console.log('No reply for intent', intent);
+        }
+      })
+      .on('end', () => {
+        resolve();
+      });
+  });
 };
 
-const parser = parse({ delimiter: '\t', from_line: 2 }, async (err, data) => {
-  const privateCorpus = {
-    locale: 'en',
-    name: 'smalltalk-private',
-    data: [],
-  };
-
-  for (let item of data) {
-    const intent = item[1];
-    const utterance = item[0];
-    const isPublic = item[2] === 'TRUE';
-
-    append(privateCorpus, intent, utterance, isPublic);
-  }
-
-  fs.writeFileSync(path.join(__dirname, 'smalltalk-private.json'), JSON.stringify(privateCorpus));
-});
-
-fs.createReadStream(inputFile).pipe(parser);
+module.exports = process;

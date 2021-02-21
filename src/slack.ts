@@ -2,6 +2,9 @@ import { BotService } from './BotService';
 import { adapter } from './adapters/slack-adapter';
 import { Storage } from 'botbuilder';
 import { MongoDbStorage } from '@botbuildercommunity/storage-mongodb';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const storage: Storage = new MongoDbStorage('mongodb://localhost:27017/', 'helperby', 'conversationState');
 
